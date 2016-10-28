@@ -1,0 +1,143 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1266px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u1424_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1110px;
+  height:787px;
+}
+#u1424 {
+  position:absolute;
+  left:156px;
+  top:36px;
+  width:1110px;
+  height:787px;
+}
+#u1425 {
+  position:absolute;
+  left:2px;
+  top:386px;
+  width:1106px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u1426_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:170px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u1426 {
+  position:absolute;
+  left:565px;
+  top:577px;
+  width:300px;
+  height:170px;
+}
+#u1427 {
+  position:absolute;
+  left:2px;
+  top:77px;
+  width:296px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u1428_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:214px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'Impact';
+  font-weight:900;
+  font-style:normal;
+  font-size:175px;
+  color:#9C0306;
+  text-align:center;
+}
+#u1428 {
+  position:absolute;
+  left:561px;
+  top:203px;
+  width:300px;
+  height:214px;
+  font-family:'Impact';
+  font-weight:900;
+  font-style:normal;
+  font-size:175px;
+  color:#9C0306;
+  text-align:center;
+}
+#u1429 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  word-wrap:break-word;
+}
+#u1430_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:527px;
+  height:76px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'AvenirNext-Regular', 'Avenir Next';
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+  text-align:center;
+}
+#u1430 {
+  position:absolute;
+  left:448px;
+  top:458px;
+  width:527px;
+  height:76px;
+  font-family:'AvenirNext-Regular', 'Avenir Next';
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+  text-align:center;
+}
+#u1431 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:527px;
+  word-wrap:break-word;
+}

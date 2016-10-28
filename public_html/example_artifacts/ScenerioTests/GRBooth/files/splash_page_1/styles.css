@@ -1,0 +1,253 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1266px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u1432_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:922px;
+  height:722px;
+  background:inherit;
+  background-color:rgba(0, 0, 0, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u1432 {
+  position:absolute;
+  left:249px;
+  top:67px;
+  width:922px;
+  height:722px;
+}
+#u1433 {
+  position:absolute;
+  left:2px;
+  top:353px;
+  width:918px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u1434_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:203px;
+  height:197px;
+}
+#u1434 {
+  position:absolute;
+  left:258px;
+  top:100px;
+  width:203px;
+  height:197px;
+}
+#u1435 {
+  position:absolute;
+  left:2px;
+  top:90px;
+  width:199px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u1436_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:548px;
+  height:85px;
+}
+#u1436 {
+  position:absolute;
+  left:423px;
+  top:122px;
+  width:548px;
+  height:85px;
+}
+#u1437 {
+  position:absolute;
+  left:2px;
+  top:34px;
+  width:544px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u1438_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:673px;
+  height:72px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'AvenirNext-Regular', 'Avenir Next';
+  font-weight:400;
+  font-style:normal;
+  color:#FFFFFF;
+}
+#u1438 {
+  position:absolute;
+  left:458px;
+  top:205px;
+  width:673px;
+  height:72px;
+  font-family:'AvenirNext-Regular', 'Avenir Next';
+  font-weight:400;
+  font-style:normal;
+  color:#FFFFFF;
+}
+#u1439 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:673px;
+  word-wrap:break-word;
+}
+#u1440_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:49px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'AvenirNext-Bold', 'Avenir Next Bold', 'Avenir Next';
+  font-weight:700;
+  font-style:normal;
+  font-size:36px;
+  color:#FFFFFF;
+  text-align:center;
+}
+#u1440 {
+  position:absolute;
+  left:550px;
+  top:383px;
+  width:300px;
+  height:49px;
+  font-family:'AvenirNext-Bold', 'Avenir Next Bold', 'Avenir Next';
+  font-weight:700;
+  font-style:normal;
+  font-size:36px;
+  color:#FFFFFF;
+  text-align:center;
+}
+#u1441 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  word-wrap:break-word;
+}
+#u1442_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1110px;
+  height:787px;
+}
+#u1442 {
+  position:absolute;
+  left:156px;
+  top:36px;
+  width:1110px;
+  height:787px;
+}
+#u1443 {
+  position:absolute;
+  left:2px;
+  top:386px;
+  width:1106px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u1444_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:373px;
+  height:108px;
+  background:inherit;
+  background-color:rgba(156, 3, 6, 1);
+  border:none;
+  border-radius:14px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'AvenirNext-Bold', 'Avenir Next Bold', 'Avenir Next';
+  color:#FFFFFF;
+  text-align:center;
+}
+#u1444 {
+  position:absolute;
+  left:321px;
+  top:498px;
+  width:373px;
+  height:108px;
+  font-family:'AvenirNext-Bold', 'Avenir Next Bold', 'Avenir Next';
+  color:#FFFFFF;
+  text-align:center;
+}
+#u1445 {
+  position:absolute;
+  left:0px;
+  top:22px;
+  width:373px;
+  word-wrap:break-word;
+}
+#u1446_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:374px;
+  height:108px;
+  background:inherit;
+  background-color:rgba(156, 3, 6, 1);
+  border:none;
+  border-radius:14px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'AvenirNext-Bold', 'Avenir Next Bold', 'Avenir Next';
+  color:#FFFFFF;
+  text-align:center;
+}
+#u1446 {
+  position:absolute;
+  left:725px;
+  top:498px;
+  width:374px;
+  height:108px;
+  font-family:'AvenirNext-Bold', 'Avenir Next Bold', 'Avenir Next';
+  color:#FFFFFF;
+  text-align:center;
+}
+#u1447 {
+  position:absolute;
+  left:0px;
+  top:22px;
+  width:374px;
+  word-wrap:break-word;
+}
