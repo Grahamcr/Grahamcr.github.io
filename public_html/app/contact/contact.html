@@ -1,0 +1,70 @@
+<header></header>
+<div id="contact-page">
+
+<div id="loading">
+    <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+    <p class="craig-brand">Sending...</p>
+</div>
+<div id="thanks">
+    <!--img src="img/greencheck.png"/-->
+    <p class="craig-brand">Thank-you! Your Feedback Has Been Sent!</p>
+     <a ng-click="close('thanks');" class="popup-close">Close</a>
+</div>
+<div id="error">
+    <!--img src="img/green_error.png"/-->
+    <div id="content"></div>
+    <a ng-click="close('error');" class="popup-close">Close</a>
+</div>
+    
+<div class="top-img">
+        
+    <video id="header-img" src="img/forest.mp4" autoplay muted loop> </video>
+
+    <div id="img-overlay">
+        <p id="overlay-title">Feel that <span>Tingling</span> in your Fingertips?</p>
+        <p id="overlay-text">That's the <span>Magnetic</span> Urge to Send Me a Message</p>
+        
+        <div id="learn-more" learn-more-scroll>
+            <a id="text">Get In Touch</a><br/>
+            <a id="cheveron-down"><span class="fa fa-angle-down"></span></a>
+        </div>
+    </div>
+
+
+</div>  
+    
+<div id="below-fold-content">
+    <div id="contact-overlay"></div>
+    <span id="learn-more-target"></span>
+    <p id="contact-header">Thank You For Your Interest!</p>
+    
+    <p id="contact-subtitle">I look forward to working with you to make something awesome!</p>
+    
+    <div id="contact-form">
+        
+        <div id="contact-area">
+
+            <p>Get In Touch</p>
+            <input ng-model="cinfo.subject" class="contact-input" placeholder="Full Name"/>
+
+
+            <input ng-model="cinfo.email" class="contact-input" placeholder="Your Email"/>
+
+
+            <input placeholder="Your Message" ng-model="cinfo.body" placeholder="Your Message" class="contact-textarea"/>
+
+
+            <a id="submit-btn" ng-click="send(cinfo)">Send It!</a>
+
+
+        </div>
+
+    </div>
+</div>
+
+</div>

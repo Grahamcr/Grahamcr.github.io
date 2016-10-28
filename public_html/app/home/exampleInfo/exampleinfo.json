@@ -1,0 +1,319 @@
+[
+{
+    "name": "Discovery Research Proposals",
+    "color": "green",
+    "id": "researchProposals",
+    "icon": "img/isw/survey.png",
+    "intro": "Designing and conducting research to answer questions very early in the development of a product or feature is my favorite part of UX.  I am a sucker for translating the “back of a napkin scratch” into experiments which will actually give us insight into how feasible an idea is, what users actually need in order to achieve our goals and what that solution might look like.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/CoreTechResearchProposal.png",
+            "title": "CoreTech Website Research Proposal",
+            "location": "example_artifacts/ResearchProposal/CoretechDesignAssessmentProposal.docx",
+            "caption": "A formal proposal to conduct a user satisfaction study on a prototype website"
+        },
+        {
+            "img": "img/isw/exampleIcons/MyAppsResearchProposal.png",
+            "title": "MyApps Anywhere Research Proposal",
+            "location": "example_artifacts/ResearchProposal/MyApps_Proposal_2.pptx",
+            "caption": "Proposed research to determine why adoption of a solution has plateaued "
+        },
+        {
+            "img": "img/isw/exampleIcons/NowProResearchQuestions.png",
+            "title": "NOW Answer Engine Research Proposal",
+            "location": "example_artifacts/ResearchProposal/ResearchQuestions-NowPro.docx",
+            "caption": "Questions asked to research interview participants for an internal search engine project"
+        }
+    ]
+},
+{
+    "name": "Discovery Survey Results",
+    "color": "green",
+    "id": "surveyResults",
+    "icon": "img/isw/results_survey.png",
+    "intro": "How research is presented is just as important, if not even more important and designing how research data will be collected. It is my top priority to make sure results remain relevant to the audience and unbiassed while also conveying the information stakeholders and business leaders need to make informed decisions.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/DeveloperCommunityReadout.png",
+            "title": "Developer Community Research Results",
+            "location": "example_artifacts/Survey_Results/DevCommunityResearchResults.pptx",
+            "caption": "Results from a survey testing a feasibility of an internal developer community"
+        },
+        {
+            "img": "img/isw/exampleIcons/nowResearchImage.png",
+            "title": "Developer Community Research Results",
+            "location": "example_artifacts/ResearchProposal/DeveloperCommunityResearchOneSlider.pptx",
+            "caption": "One slider showing the progression from one experiment to the next while researching an internal community"
+        },
+        {
+            "img": "img/isw/exampleIcons/NowProResearchQuestions.png",
+            "title": "NOW Search Engine User Research Results",
+            "location": "example_artifacts/ResearchResults/UserResearchReadout.pptx",
+            "caption": "Results from questions asked to research participants for an internal search engine project"
+        },
+        {
+            "img": "img/isw/exampleIcons/coretechResults.png",
+            "title": "Services Health Dashboard Research Readout",
+            "location": "example_artifacts/Survey_Results/servicesdashboard.pptx",
+            "caption": "Results from questions asked to research participants for an internal cloud services dashboard"
+        }
+    ]
+},
+{
+    "name": "Competitive Analysis",
+    "color": "green",
+    "id": "ca",
+    "icon": "img/isw/competetive.png",
+    "intro": "One of the benefits of LEAN Canvases is that they force you to take a realistic look at your ideas before you bring them to market.  Perhaps the most important part of a LEAN canvas is looking at your product’s competitive advantage.  One way to help establish what that is, is through a competitive analysis of similar products in the marketplace.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/DeveloperCommunityReadout.png",
+            "title": "LinkedIn Lookup Competitive Analysis",
+            "location": "example_artifacts/CompetitiveAnaylsis/LinkedInLookupCA.docx",
+            "caption": "An analysis of LinkedIn's Lookup product"
+        }
+    ]
+},
+{
+    "name": "Personas",
+    "color": "yellow",
+    "id": "personas",
+    "icon": "img/isw/persona.png",
+    "intro": "For me, personas are a chance for two main things.  One, it is the first chance to translate all of the research data into a living artifact that represents what has been learned about the users so far. Two, it is a chance to bring together all the stakeholders and establish a shared vision for what the user experience should become.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/GhostRedPersonas.png",
+            "title": "GhostRed Personas",
+            "location": "example_artifacts/Personas/Personas_GR.docx",
+            "caption": "Personas for a internal/external recruiting platform "
+        },
+        {
+            "img": "img/isw/exampleIcons/DeveloperCommunityPersonas.png",
+            "title": "Developer Community Personas",
+            "location": "example_artifacts/Personas/Personas.pptx",
+            "caption": "Personas for an internal developer community"
+        },
+        {
+            "img": "img/isw/exampleIcons/MyAppsPersonas.png",
+            "title": "MyApps Anywhere Team Personas",
+            "location": "example_artifacts/Personas/Personas_MyApps.docx",
+            "caption": "Personas for the team I was apart of when we were trying to decide on our next phase of agile tooling"
+        },
+        {
+            "img": "img/isw/exampleIcons/NOWPersonas.png",
+            "title": "NOW Answer Engine Personas",
+            "location": "example_artifacts/Personas/Personas_Now.docx",
+            "caption": "Personas for an internal search engine project"
+        }
+    ]
+},
+{
+    "name": "User Stories",
+    "color": "yellow",
+    "id": "us",
+    "icon": "img/isw/userStories.png",
+    "intro": "Most of the time I do not feel the need to make these a separate artifact and instead include them in personas.  However, sometimes it is necessary to be explicit for the benefit of stakeholders, coworkers or business leaders.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/nowUserStories.png",
+            "title": "NOW Answer Engine User Stories",
+            "location": "example_artifacts/UserStories/UserStories.docx",
+            "caption": "User stories for an internal search engine product showing what users expect to be able to accomplish"
+        }
+    ]
+},
+{
+    "name": "High Fidelity Mockups",
+    "color": "blue",
+    "id": "hfm",
+    "icon": "img/isw/mockup.png",
+    "intro": "The next step after stepping away from the whiteboard for the first time, deep interaction mockups are an opportunity for creativity to meet research results to become the first detailed look into the visual aspects of a user experience. This our chance as designers to show our understanding of our users through the experience we create.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/ghostRedMock.png",
+            "title": "GhostRed Recruiting Platform Mockup",
+            "location": "example_artifacts/Mockups/GhostRed/landing_page/v1/home_2.html",
+            "caption": "Deep interaction mock ups with limited responsive design shown for an internal recruiting platform."
+        },
+        {
+            "img": "img/isw/exampleIcons/now2mocks.png",
+            "title": "NOW Answer Engine Mockup",
+            "location": "example_artifacts/Mockups/NOW2Mocks/DesignB/index.html",
+            "caption": "Deep interaction mock ups for a crowd sourced internal search platform."
+        },
+        {
+            "img": "img/isw/exampleIcons/SandcastleMocks.png",
+            "title": "SANDCASTLE Design Suite Mockup",
+            "location": "example_artifacts/Mockups/sandcastlePivotMocks/v1/index.html",
+            "caption": "Deep interaction mock ups for an internal “click and drag” website development tool."
+        },
+        {
+            "img": "img/isw/exampleIcons/maaMock.png",
+            "title": "MyApps Anywhere Website Mockup",
+            "location": "example_artifacts/Mockups/MAAWebsite/home.html",
+            "caption": "Deep interaction mock ups for an internal product web presence."
+        }
+    ]
+},
+{
+    "name": "Usability Results",
+    "color": "orange",
+    "id": "ur",
+    "icon": "img/isw/results.png",
+    "intro": "For me, nothing beats one-on-one in-person design assessments where the participant is asked to complete a series of open-ended scenarios.  Aesthetically a website may look great, but its usability can be a completely different story once a user is asked to actually do something with it.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/NOWABTest.png",
+            "title": "NOW Answer Engine A/B Testing Results",
+            "location": "example_artifacts/UserTestingReadout/ABTestingResultsMay27.pptx",
+            "caption": "Results from an A/B test of two different approaches to an internal search engine project"
+        },
+        {
+            "img": "img/isw/exampleIcons/coretechResults.png",
+            "title": "CoreTech Website A/B Testing Results - R1",
+            "location": "example_artifacts/UserTestingReadout/CoreTechAssessmentResults.xlsx",
+            "caption": "Results of a test were I created a B design to a preexisting design based on earlier design assessment results"
+        },
+        {
+            "img": "img/isw/exampleIcons/sandcastleABTesting.png",
+            "title": "SANDCASTLE Design Suite A/B Testing Results",
+            "location": "example_artifacts/UserTestingReadout/SANDCASTLE_DAR_1.xlsx",
+            "caption": "Results from a A/B test for an internal “click and drag” website development tool"
+        }
+    ]
+},
+{
+    "name": "Scenario Testing",
+    "color": "orange",
+    "id": "st",
+    "icon": "img/isw/testing.png",
+    "intro": "I have seen the benefits of using testing scenarios based on the goals outlined in the personas for a project to test the performance of designs compared to simple “Get It Testing”.  Nothing compares to actually asking users to solve relevant situations using your design and the feedback gained by doing so.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/dashboardTesting.png",
+            "title": "MyApps Anywhere Client Dashboard Test",
+            "location": "example_artifacts/ScenerioTests/MAAClientDashboard/testing.html",
+            "caption": "A mock windows desktop used to test out how users interact with a client dashboard to solve application issues"
+        },
+        {
+            "img": "img/isw/exampleIcons/grbooth.png",
+            "title": "GhostRed Booth Test",
+            "location": "example_artifacts/ScenerioTests/GRBooth/start.html",
+            "caption": "A mock event recruitment booth to test how potential participants might respond to a game-like experience"
+        }
+    ]
+},
+{
+    "name": "A/B Tests",
+    "color": "orange",
+    "id": "ab",
+    "icon": "img/isw/abtest.png",
+    "intro": "My favorite way to start the design process is by creating an A/B test plan that explicitly compares several different conclusions to research results.  Whether it be IA, Flow, Aesthetics or something else, designing and testing to that experiment can provide a wealth of information once design assessments are completed.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/gr1.png",
+            "title": "GhostRed Recruiting Platform Mockup A",
+            "location": "example_artifacts/Mockups/GhostRed/landing_page/v1/home.html",
+            "caption": "Design A for the first iteration design A/B test for an internal/external recruiting platform"
+        },
+        {
+            "img": "img/isw/exampleIcons/gr2.png",
+            "title": "GhostRed Recruiting Platform Mockup B",
+            "location": "example_artifacts/Mockups/GhostRed/landing_page/v1/home_1.html",
+            "caption": "Design B for the first iteration design A/B test for an internal/external recruiting platform"
+        },
+        {
+            "img": "img/isw/exampleIcons/alec.png",
+            "title": "NOW Answer Engine Mockup A",
+            "location": "example_artifacts/Mockups/NOW2Mocks/V1/home.html",
+            "caption": "Design A for the first iteration design A/B test for a crowd sourced internal search platform"
+        },
+        {
+            "img": "img/isw/exampleIcons/forge.png",
+            "title": "NOW Answer Engine Mockup B",
+            "location": "example_artifacts/Mockups/NOW2Mocks/V1/home_1.html",
+            "caption": "Design B for the first iteration design A/B test for a crowd sourced internal search platform"
+        }
+    ]
+},
+{
+    "name": "Developed Websites",
+    "color": "orange",
+    "id": "web",
+    "icon": "img/isw/survey.png",
+    "intro": "My goal when asked to develop a web application is to create easy to understand and expandable code that delivers on the promises made during the design phase.  In the future I would like to focus more on Test Driven Development.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/is.png",
+            "title": "Innovation Studio Team Website",
+            "location": "example_artifacts/DevelopedWebsites/InnovationStudio/innovationStudio-www/public_html/#/",
+            "caption": "Website I designed and develped used to internally market the team I was apart of with GE Digital create with Angular 1, HTML5 and CSS3"
+        },
+        {
+            "img": "img/isw/exampleIcons/maaMock.png",
+            "title": "MyApps Anywhere Site",
+            "location": "example_artifacts/DevelopedWebsites/MyApps/myapps-www/public_html/#/",
+            "caption": "Developed with Angular 1, HTML5 and CSSw3, this is part of an internal web product web presence I designed and developed"
+        }
+    ]
+},
+{
+    "name": "Infographics",
+    "color": "blue",
+    "id": "infographics",
+    "icon": "img/isw/infographic.png",
+    "intro": "Infographics create the interesting challenge of conveying lots of information and establishing the desired user perception in a very limited interaction, which is perhaps why I find them so interesting to design.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/iswi.png",
+            "title": "Innovation Studio Accelerator",
+            "location": "example_artifacts/Infographics/isw.png",
+            "caption": "Infographic for an internal project team accelerator program"
+        },
+        {
+            "img": "img/isw/exampleIcons/maas.png",
+            "title": "MyApps Anywhere Infographic",
+            "location": "example_artifacts/Infographics/maas.png",
+            "caption": "Infographic showing how an application works"
+        }
+    ]
+},
+{
+    "name": "Graphic Design Work",
+    "color": "blue",
+    "id": "gdw",
+    "icon": "img/isw/graphicdesign.png",
+    "intro": "I am only a self taught graphic designer who enjoys creating graphics to enhance the experience of interacting with web applications.  Graphics also serve as a medium to increase users understanding of concepts, processes and more within an application.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/team.png",
+            "title": "Innovation Studio Team Graphic",
+            "location": "example_artifacts/Graphics/team.png",
+            "caption": "Team member avatars I created for each person on my team in GE for our internal web presence and agile process"
+        },
+        {
+            "img": "img/isw/exampleIcons/ctf.png",
+            "title": "GhostRed Capture The Flag",
+            "location": "example_artifacts/Graphics/CaptureTheFlagDistrested.png",
+            "caption": "Graphic for the GhostRed Capture the Flag product"
+        },
+        {
+            "img": "img/isw/exampleIcons/hack.png",
+            "title": "GhostRed Hackathon",
+            "location": "example_artifacts/Graphics/hackathon.png",
+            "caption": "Graphic for the GhostRed Hackathon product"
+        },
+        {
+            "img": "img/isw/exampleIcons/participant.png",
+            "title": "GhostRed Participant",
+            "location": "example_artifacts/Graphics/participant.png",
+            "caption": "Graphic for the GhostRed product"
+        }
+    ]
+}
+    
+    
+    
+    
+    
+]
