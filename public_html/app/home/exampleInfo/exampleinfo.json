@@ -246,13 +246,13 @@
         {
             "img": "img/isw/exampleIcons/is.png",
             "title": "Innovation Studio Team Website",
-            "location": "example_artifacts/DevelopedWebsites/InnovationStudio/innovationStudio-www/public_html/#/",
+            "location": "https://grahamcr.github.io/devsite2/innovationStudio-www/public_html/#/",
             "caption": "Website I designed and develped used to internally market the team I was apart of with GE Digital create with Angular 1, HTML5 and CSS3"
         },
         {
             "img": "img/isw/exampleIcons/maaMock.png",
             "title": "MyApps Anywhere Site",
-            "location": "example_artifacts/DevelopedWebsites/MyApps/myapps-www/public_html/#/",
+            "location": "https://grahamcr.github.io/devsite1/myapps-www/public_html/#/",
             "caption": "Developed with Angular 1, HTML5 and CSSw3, this is part of an internal web product web presence I designed and developed"
         }
     ]
