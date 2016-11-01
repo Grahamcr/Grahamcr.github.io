@@ -13,6 +13,12 @@
             "caption": "A formal proposal to conduct a user satisfaction study on a prototype website"
         },
         {
+            "img": "img/isw/exampleIcons/grHEART.png",
+            "title": "GhostRed HEART Framework for Booth Kit Research",
+            "location": "example_artifacts/ResearchProposal/GhostRedHEART.pptx",
+            "caption": "An example of using the HEART framework to define success for a experiment/product"
+        },
+        {
             "img": "img/isw/exampleIcons/MyAppsResearchProposal.png",
             "title": "MyApps Anywhere Research Proposal",
             "location": "example_artifacts/ResearchProposal/MyApps_Proposal_2.pptx",
@@ -290,6 +296,12 @@
             "title": "Innovation Studio Team Graphic",
             "location": "example_artifacts/Graphics/team.png",
             "caption": "Team member avatars I created for each person on my team in GE for our internal web presence and agile process"
+        },
+        {
+            "img": "img/isw/exampleIcons/ghostRedMock.png",
+            "title": "All GhostRed Graphics",
+            "location": "example_artifacts/Mockups/GhostRed/landing_page/v1/home_2.html",
+            "caption": "I created all of the graphics for the GhostRed Recruiting Platform as shown in this mockup."
         },
         {
             "img": "img/isw/exampleIcons/ctf.png",
