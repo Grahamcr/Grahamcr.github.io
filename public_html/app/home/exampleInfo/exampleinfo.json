@@ -85,7 +85,7 @@
             "img": "img/isw/exampleIcons/GhostRedPersonas.png",
             "title": "GhostRed Personas",
             "location": "example_artifacts/Personas/Personas_GR.docx",
-            "caption": "Personas for a internal/external recruiting platform "
+            "caption": "Personas for an internal/external recruiting platform "
         },
         {
             "img": "img/isw/exampleIcons/DeveloperCommunityPersonas.png",
@@ -247,13 +247,13 @@
             "img": "img/isw/exampleIcons/is.png",
             "title": "Innovation Studio Team Website",
             "location": "https://grahamcr.github.io/devsite2/innovationStudio-www/public_html/#/",
-            "caption": "Website I designed and develped used to internally market the team I was apart of with GE Digital create with Angular 1, HTML5 and CSS3"
+            "caption": "Website I designed and developed used to internally market the team I was apart of with GE Digital create with Angular 1, HTML5 and CSS3"
         },
         {
             "img": "img/isw/exampleIcons/maaMock.png",
             "title": "MyApps Anywhere Site",
             "location": "https://grahamcr.github.io/devsite1/myapps-www/public_html/#/",
-            "caption": "Developed with Angular 1, HTML5 and CSSw3, this is part of an internal web product web presence I designed and developed"
+            "caption": "Developed with Angular 1, HTML5 and CSS3, this is part of an internal web product web presence I designed and developed"
         }
     ]
 },
@@ -283,7 +283,7 @@
     "color": "blue",
     "id": "gdw",
     "icon": "img/isw/graphicdesign.png",
-    "intro": "I am only a self taught graphic designer who enjoys creating graphics to enhance the experience of interacting with web applications.  Graphics also serve as a medium to increase users understanding of concepts, processes and more within an application.",
+    "intro": "I am only a self-taught graphic designer who enjoys creating graphics to enhance the experience of interacting with web applications.  Graphics also serve as a medium to increase users understanding of concepts, processes and more within an application.",
     "examples": [
         {
             "img": "img/isw/exampleIcons/team.png",
