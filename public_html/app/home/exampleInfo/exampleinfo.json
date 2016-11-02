@@ -133,31 +133,31 @@
     "color": "blue",
     "id": "hfm",
     "icon": "img/isw/mockup.png",
-    "intro": "The next step after stepping away from the whiteboard for the first time, deep interaction mockups are an opportunity for creativity to meet research results to become the first detailed look into the visual aspects of a user experience. This our chance as designers to show our understanding of our users through the experience we create.",
+    "intro": "For me, the creation of deep interaction mockups represents a first chance to step away from the whiteboard and start moving pixels around. Deep interaction mockups are an opportunity for creativity to meet research results to become the first detailed look into the visual aspects of a user experience. This is our chance as designers to show our understanding of our users through the experience we create.",
     "examples": [
         {
             "img": "img/isw/exampleIcons/ghostRedMock.png",
             "title": "GhostRed Recruiting Platform Mockup",
             "location": "example_artifacts/Mockups/GhostRed/landing_page/v1/home_2.html",
-            "caption": "Deep interaction mock ups with limited responsive design shown for an internal recruiting platform."
+            "caption": "Deep interaction mockups with limited responsive design shown for an internal recruiting platform"
         },
         {
             "img": "img/isw/exampleIcons/now2mocks.png",
             "title": "NOW Answer Engine Mockup",
             "location": "example_artifacts/Mockups/NOW2Mocks/DesignB/index.html",
-            "caption": "Deep interaction mock ups for a crowd sourced internal search platform."
+            "caption": "Deep interaction mockups for a crowdsourced internal search platform"
         },
         {
             "img": "img/isw/exampleIcons/SandcastleMocks.png",
             "title": "SANDCASTLE Design Suite Mockup",
             "location": "example_artifacts/Mockups/sandcastlePivotMocks/v1/index.html",
-            "caption": "Deep interaction mock ups for an internal “click and drag” website development tool."
+            "caption": "Deep interaction mockups for an internal “click and drag” website development tool"
         },
         {
             "img": "img/isw/exampleIcons/maaMock.png",
             "title": "MyApps Anywhere Website Mockup",
             "location": "example_artifacts/Mockups/MAAWebsite/home.html",
-            "caption": "Deep interaction mock ups for an internal product web presence."
+            "caption": "Deep interaction mockups for an internal product web presence"
         }
     ]
 },
@@ -176,9 +176,9 @@
         },
         {
             "img": "img/isw/exampleIcons/coretechResults.png",
-            "title": "CoreTech Website A/B Testing Results - R1",
+            "title": "CoreTech Website A/B Testing Results",
             "location": "example_artifacts/UserTestingReadout/CoreTechAssessmentResults.xlsx",
-            "caption": "Results of a test were I created a B design to a preexisting design based on earlier design assessment results"
+            "caption": "Results of a test where I created a B design to a preexisting design based on earlier design assessment results"
         },
         {
             "img": "img/isw/exampleIcons/sandcastleABTesting.png",
@@ -193,7 +193,7 @@
     "color": "orange",
     "id": "st",
     "icon": "img/isw/testing.png",
-    "intro": "I have seen the benefits of using testing scenarios based on the goals outlined in the personas for a project to test the performance of designs compared to simple “Get It Testing”.  Nothing compares to actually asking users to solve relevant situations using your design and the feedback gained by doing so.",
+    "intro": "I have seen the benefits of using testing scenarios based on the goals outlined in the personas to test the performance of designs. In my opinion the best test results come from asking users to solve relevant situations using your design and the feedback gained by doing so.",
     "examples": [
         {
             "img": "img/isw/exampleIcons/dashboardTesting.png",
@@ -214,7 +214,7 @@
     "color": "orange",
     "id": "ab",
     "icon": "img/isw/abtest.png",
-    "intro": "My favorite way to start the design process is by creating an A/B test plan that explicitly compares several different conclusions to research results.  Whether it be IA, Flow, Aesthetics or something else, designing and testing to that experiment can provide a wealth of information once design assessments are completed.",
+    "intro": "My favorite way to start the design process is to create an A/B test plan that will address ambiguity in discovery research results.  Whether it be information architecture, flow, aesthetics or something else, designing and testing to experiment goals can provide a wealth of information once design assessments are completed.",
     "examples": [
         {
             "img": "img/isw/exampleIcons/gr1.png",
@@ -232,13 +232,13 @@
             "img": "img/isw/exampleIcons/alec.png",
             "title": "NOW Answer Engine Mockup A",
             "location": "example_artifacts/Mockups/NOW2Mocks/V1/home.html",
-            "caption": "Design A for the first iteration design A/B test for a crowd sourced internal search platform"
+            "caption": "Design A for the first iteration design A/B test for a crowdsourced internal search platform"
         },
         {
             "img": "img/isw/exampleIcons/forge.png",
             "title": "NOW Answer Engine Mockup B",
             "location": "example_artifacts/Mockups/NOW2Mocks/V1/home_1.html",
-            "caption": "Design B for the first iteration design A/B test for a crowd sourced internal search platform"
+            "caption": "Design B for the first iteration design A/B test for a crowdsourced internal search platform"
         }
     ]
 },
@@ -253,7 +253,7 @@
             "img": "img/isw/exampleIcons/is.png",
             "title": "Innovation Studio Team Website",
             "location": "https://grahamcr.github.io/devsite2/innovationStudio-www/public_html/#/",
-            "caption": "Website I designed and developed used to internally market the team I was apart of with GE Digital create with Angular 1, HTML5 and CSS3"
+            "caption": "Website I designed and developed with Angular 1, HTML5 and CSS3, used to market the team I was a part of at GE Digital"
         },
         {
             "img": "img/isw/exampleIcons/maaMock.png",
@@ -295,7 +295,7 @@
             "img": "img/isw/exampleIcons/team.png",
             "title": "Innovation Studio Team Graphic",
             "location": "example_artifacts/Graphics/team.png",
-            "caption": "Team member avatars I created for each person on my team in GE for our internal web presence and agile process"
+            "caption": "Team member avatars I created for each person on my team in GE for our internal web presence and for use in our Kanban Board"
         },
         {
             "img": "img/isw/exampleIcons/ghostRedMock.png",
