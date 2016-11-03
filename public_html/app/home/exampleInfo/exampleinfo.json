@@ -40,6 +40,12 @@
     "intro": "How research is presented is just as important, if not even more important and designing how research data will be collected. It is my top priority to make sure results remain relevant to the audience and unbiassed while also conveying the information stakeholders and business leaders need to make informed decisions.",
     "examples": [
         {
+            "img": "img/isw/exampleIcons/maaMock.png",
+            "title": "MyApps Communication Style Survey Results",
+            "location": "example_artifacts/Survey_Results/MyAppsComs/home.html",
+            "caption": "Results from a survey testing out different communication styles when a user connects to the network"
+        },
+        {
             "img": "img/isw/exampleIcons/DeveloperCommunityReadout.png",
             "title": "Developer Community Research Results",
             "location": "example_artifacts/Survey_Results/DevCommunityResearchResults.pptx",
