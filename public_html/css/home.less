@@ -443,6 +443,7 @@
         
         
         #whole-picture {
+            margin-top: 70px;
             width: 100%;
             position: relative;
             display: inline-block;
@@ -451,6 +452,7 @@
                 position: absolute;
                 width:28%;
                 text-align: center;
+                z-index: 10;
                 
                 .header-txt {
                     font-size: 48px;
@@ -464,17 +466,30 @@
                 }
             }
             #ux-block {
-                left: 40px;
-                top: 150px;
+                left: 50px;
+                top: 100px;
             }
             #code-block {
-                top:210px;
-                right:40px;
+                top:200px;
+                right:50px;
             }
             #split-pic {
                 width: 50%;
                 display: inline-block;
                 margin-left: 25%;
+                
+            }
+            #underline {
+                width: 100%;
+                position: absolute;
+                bottom: 2px;
+                height: 6px;
+                background: #ffffff; /* Old browsers */
+                background: -moz-linear-gradient(left,  #ffffff 0%, #008fd0 51%, #ffffff 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(left,  #ffffff 0%,#008fd0 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to right,  #ffffff 0%,#008fd0 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
             }
         }
         
