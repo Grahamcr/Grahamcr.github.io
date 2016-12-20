@@ -289,19 +289,7 @@
         overflow: hidden;
         z-index: 0;
         
-        #header-overlay {
-            position: absolute;
-            top:0px;
-            left: 0px;
-            right: 0px;
-            bottom: 0px;
-            width: 100%;
-            z-index: 2;
-            //background-color: rgba(67, 91, 141,.8);
-            background-color: rgba(0,0,0,.6);
-            
-        }
-        
+
         #background-image {
             background: url(../img/background_computer_small.png) no-repeat center center fixed;
             -webkit-background-size: cover;
@@ -319,7 +307,39 @@
             
         }
         #main-header {
-          
+            position:absolute;
+            text-align: right;
+            width:50%;
+            margin-right: 15%;
+            right:0px;
+            margin-top: 150px;
+            z-index: 10;
+            
+            #name {
+                font-size: 72px;
+                .header-text();
+            }
+            #tagline {
+                .cursive-text();
+                font-size: 24px;
+            }
+            
+            #btn-group {
+                position: absolute;
+                right: 0px;
+                .std-button {
+                    .std-button();
+                    float:left;
+                }
+                #process-btn {
+                    background-color: @primary-blue;
+                    margin-right: 20px;
+                    color:#FFF;
+                }
+                #best-work-btn {
+                    background-color: @primary-yellow;
+                }
+            }
         }
         
     }
