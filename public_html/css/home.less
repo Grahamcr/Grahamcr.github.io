@@ -386,11 +386,73 @@
     #isw-below-fold {
         
         position: absolute;
-        top:80%;
+        top:100%;
         width: 100%;
-        padding-top: 200px;
+        padding-top: -100px;
         
 
+        
+        .section-header {
+            .section-header();
+            clear:both;
+        }
+        
+        
+        .three-wide {
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+            margin-top: 70px;
+            margin-bottom: 150px;
+            
+            .w-section {
+                position: relative;
+                width: 29%;
+                float: left;
+                display: inline-block;
+                margin-left: 3.5%;
+                
+                .background {
+                    background-color: @primary-blue;
+                    border-radius: 200px;
+                    width: 200px;
+                    height: 200px;
+                    display: inline-block;
+                }
+                
+                .section-title {
+                    font-size: 20px;
+                    margin-top: 15px;
+                    margin-bottom: 0px;
+                }
+                .section-details {
+                    font-size: 14px;
+                    margin-top: 10px;
+                    margin-bottom: 0px;
+                }
+                .section-c2a {
+                    .std-button();
+                    margin-top: 10px;
+                    background-color: @primary-blue;
+                    color:#FFF;
+                    display: inline-block;
+                }
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         #bottom-section {
             width:100%;
