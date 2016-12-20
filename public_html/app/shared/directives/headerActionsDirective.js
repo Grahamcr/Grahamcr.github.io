@@ -51,7 +51,7 @@
                     var tl = new TimelineLite();
                     var clientHeight = isNaN(window.innerHeight) ? window.clientHeight : window.innerHeight;
                      if(this.pageYOffset > clientHeight && this.pageYOffset < (clientHeight + 200)){
-                        tl.to(".header", 1, {ease:Power3.easeOut, position:"fixed", backgroundColor:"rgb(67, 91, 141)"});
+                        tl.to(".header", 1, {ease:Power3.easeOut, position:"fixed", backgroundColor:"#008FD0"});
                     }
                     else if(this.pageYOffset < clientHeight){
                         tl.to(".header", 1, {ease:Power3.easeOut, position:"absolute", backgroundColor:"rgba(0,0,0,.0)"});

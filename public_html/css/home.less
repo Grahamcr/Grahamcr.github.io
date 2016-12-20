@@ -345,9 +345,17 @@
                     background-color: @primary-blue;
                     margin-right: 20px;
                     color:#FFF;
+                    &:hover {
+                        background-color: @primary-yellow;
+                        color:#000;
+                    }
                 }
                 #best-work-btn {
                     background-color: @primary-yellow;
+                    &:hover {
+                        background-color: @primary-blue;
+                        color:#FFF;
+                    }
                 }
             }
         }
@@ -418,6 +426,12 @@
                     width: 200px;
                     height: 200px;
                     display: inline-block;
+                    
+                    img {
+                        width: 145px;
+                        margin-top: 30px;
+                        display: inline-block;
+                    }
                 }
                 
                 .section-title {
@@ -507,7 +521,7 @@
                 .example-overlay {
                     max-height: 0px;
                     overflow-y: hidden;
-                    background-color: rgba(67, 91, 141,.8);
+                    background-color: rgba(0, 143, 208,.8);
                     height: 50%;
                     position: absolute;
                     bottom: 9px;
