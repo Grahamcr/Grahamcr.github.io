@@ -447,6 +447,7 @@
             width: 100%;
             position: relative;
             display: inline-block;
+            margin-bottom: 150px;
             
             .text-block {
                 position: absolute;
@@ -493,7 +494,94 @@
             }
         }
         
+        .example-row {
+            .example-block {
+                float: left;
+                position: relative;
+                cursor: pointer;
+                
+                img {
+                    width: 100%;
+                }
+                
+                .example-overlay {
+                    max-height: 0px;
+                    overflow-y: hidden;
+                    background-color: rgba(67, 91, 141,.8);
+                    height: 50%;
+                    width: 100%;
+                    position: absolute;
+                    bottom: 9px;
+                    color: #FFF;
+                    padding:20px;
+                    visibility: hidden;
+                    border-top: 4px solid #FFF;
+                    cursor: pointer;
+
+                    .overlay-title {
+                        font-weight: 500;
+                        font-size: 20px;
+                        margin-bottom: -5px;
+                    }
+                    .overlay-description {
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 25px;
+                    }
+                    .fa-arrow-right {
+                        position: absolute;
+                        right: 60px;
+                        bottom: 20px;
+                        font-size: 20px;
+                    }
+                    @media screen and (max-width:980px) {
+                        .overlay-description {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            @media screen and (min-width:750px) {
+                .example-block:hover  {
+                    .example-overlay {
+                        visibility: visible;
+                        max-height: 45%;
+                        transition-property: all;
+                        transition-duration: .5s;
+                        transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+                    }
+
+                }
+            }
+        }
         
+        #examples-row-1 {
+            margin-top: 70px;
+            margin-bottom: -90px;
+            
+            .example-block {
+                width: 33.3333%;
+            }
+        }
+        #examples-row-2 {
+            position: relative;
+            top:-10px;
+            
+            .example-block {
+                width: 50%;
+            }
+        }
+        #examples-row-3 {
+            position: relative;
+            top: -20px;
+            
+            .example-block {
+                width: 28.25%;
+            }
+            #middle-block {
+                width:43.5%;
+            }
+        }
         
         
         
@@ -516,71 +604,6 @@
             height: 1000px;
             z-index: 50;
             
-            #examples-row {
-                height: 365px;
-                
-                .example-block {
-                    width: 33.3333%;
-                    float: left;
-                    position: relative;
-                    cursor: pointer;
-                    
-                    img {
-                        width: 100%;
-                    }
-                    
-                    .example-overlay {
-                        max-height: 0px;
-                        overflow-y: hidden;
-                        background-color: rgba(67, 91, 141,.8);
-                        height: 50%;
-                        width: 100%;
-                        position: absolute;
-                        bottom: 4px;
-                        color: #FFF;
-                        padding:20px;
-                        visibility: hidden;
-                        border-top: 4px solid #FFF;
-                        cursor: pointer;
-                        
-                        .overlay-title {
-                            font-weight: 500;
-                            font-size: 20px;
-                            margin-bottom: -5px;
-                        }
-                        .overlay-description {
-                            font-size: 16px;
-                            font-weight: 300;
-                            line-height: 25px;
-                        }
-                        .fa-arrow-right {
-                            position: absolute;
-                            right: 60px;
-                            bottom: 20px;
-                            font-size: 20px;
-                        }
-                        @media screen and (max-width:980px) {
-                            .overlay-description {
-                                display: none;
-                            }
-                        }
-                    }
-                }
-                @media screen and (min-width:750px) {
-                    .example-block:hover  {
-                        .example-overlay {
-                            visibility: visible;
-                            max-height: 45%;
-                            transition-property: all;
-                            transition-duration: .5s;
-                            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-                        }
-
-                    }
-                }
-                
-                
-            }
             
             #contact-area {
                 margin-left: 100px;
