@@ -616,9 +616,22 @@
             top: 200px;
             margin-bottom: 300px;
         }
+        .process-line {
+            width:50%;
+            height: 2px;
+            margin-left: 25%;
+            margin-bottom: 100px;
+            margin-top: 130px;
+            
+            background: #ffffff; /* Old browsers */
+            background: -moz-linear-gradient(left,  #ffffff 0%, #008fd0 51%, #ffffff 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left,  #ffffff 0%,#008fd0 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right,  #ffffff 0%,#008fd0 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+        }
+        
         .process-block {
             width:100%;
-            margin-bottom: 70px;
             
             .process-title-wrapper {
                 margin-left: 100px;
@@ -626,13 +639,13 @@
                 padding-right: 100px;
                 
                 .process-title {
-                    font-size: 20px;
+                    font-size: 24px;
                     .standard-text();
                     margin-bottom: 0px;
                     margin-top: 0px;
                 }
                 .process-details {
-                    font-size: 14px;
+                    font-size: 16px;
                     margin-top: 0px;
                     margin-bottom: 0px;
                 }  
@@ -650,16 +663,19 @@
                         width: 200px;
                         display: inline-block;
                         margin-bottom: 5px;
+                        cursor: pointer;
                     }
                     .step-name {
-                        font-size: 20px;
+                        font-size: 24px;
                         margin:0px;
+                        cursor: pointer;
                     }
                     .process-c2a {
                         .std-button();
                         background-color:@primary-blue;
                         color:#FFF;
                         display: inline-block;
+                        cursor: pointer;
                     }
                 }
             }
@@ -695,9 +711,21 @@
         
         #define {
             .process-icons-wrapper {
-                width:40%;
-                margin-left:10%;
-                margin-right: 10%;
+                .process-icon:first-child {
+                    width:25%;
+                    margin-left:10%;
+                    margin-right: 2.5%;
+
+                }
+                .process-icon:nth-child(2){
+                    width:25%;
+                }
+                .process-icon:last-child {
+                    width:25%;
+                    margin-left:2.5%;
+                    margin-right: 10%;
+
+                }
             }
         }
         
