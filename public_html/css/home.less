@@ -289,6 +289,13 @@
         overflow: hidden;
         z-index: 0;
         
+        @media screen and (max-width:450px) {
+            bottom:0px;
+        }
+        
+        @media screen and (max-height:630px) {
+            bottom:0px;
+        }
 
 
         #sun {
@@ -387,6 +394,121 @@
         }
         
         
+        @media screen and (max-width:1240px) {
+            #main-header {
+                margin-right: 6%;
+                
+                #name {
+                    font-size: 60px;
+                }
+                #tageline {
+                    font-size: 20px;
+                }
+                
+            }   
+        }
+        
+        @media screen and (max-width:1070px) {
+            #main-header {
+                margin-top: 60px;
+            }
+            #walking-chicken {
+                display:none;
+            }
+            #cloud2 {
+                display: none;
+            }
+        }
+        
+        @media screen and (max-width:970px) {
+            #main-header {
+                margin-right: 6%;
+                text-align: center;
+                width: 100%;
+                margin-right: 0%;
+                margin-left: 0%;
+                text-align: center;
+                display: inline-block;
+                margin-top: 20px;
+                
+                #name {
+                    font-size: 50px;
+                }
+                #tagline {
+                    font-size: 18px;
+                    width:60%;
+                    margin-left: 20%;
+                }
+                #btn-group {
+                    display: inline-block;
+                    right:auto;
+                    left: auto;
+                    margin-left: -160px;
+                }
+            } 
+            #sun {
+                    display: none;
+            }
+            #cloud1 {
+                display: none;
+            }
+        }
+        
+        @media screen and (max-width:730px) {
+            #main-header {
+                #tagline {
+                    width:80%;
+                    margin-left: 10%;
+                }
+            }
+        }
+        @media screen and (max-width:470px) {
+            #barn {
+                width: 370px;
+            }
+            #main-header {
+                margin-top: 50px;
+                #name {
+                    font-size: 40px;
+                    line-height: 45px;
+                    margin-bottom: 10px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                #tagline {
+                    font-size: 16px;
+                }
+            }
+        }
+        
+        @media screen and (max-width:380px) {
+            #barn {
+                width: 320px;
+            }
+        }
+        
+        @media screen and (max-width:325px) {
+            #barn {
+                width: 280px;
+            }
+            #main-header {
+                #btn-group {
+                    width: 150px;
+                    margin-left: -75px;
+                    left: 50%;
+                    
+                    .std-button {
+                        clear: both;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width:300px) {
+            #barn {
+                width: 220px;
+            }
+        }
         
     }
 

@@ -1,6 +1,6 @@
 [
 {
-    "name": "Discovery Research Proposals",
+    "name": "Discovery Research Plans",
     "color": "green",
     "id": "researchProposals",
     "icon": "img/isw/survey.png",
@@ -33,7 +33,7 @@
     ]
 },
 {
-    "name": "Discovery Survey Results",
+    "name": "Contextual Inquiry Results",
     "color": "green",
     "id": "surveyResults",
     "icon": "img/isw/results_survey.png",
@@ -120,7 +120,7 @@
     ]
 },
 {
-    "name": "User Stories",
+    "name": "User Flow Diagrams",
     "color": "yellow",
     "id": "us",
     "icon": "img/isw/userStories.png",
@@ -168,7 +168,7 @@
     ]
 },
 {
-    "name": "Usability Results",
+    "name": "Design Assessment Results",
     "color": "orange",
     "id": "ur",
     "icon": "img/isw/results.png",
@@ -195,7 +195,7 @@
     ]
 },
 {
-    "name": "Scenario Testing",
+    "name": "User Scenario Testing",
     "color": "orange",
     "id": "st",
     "icon": "img/isw/testing.png",
