@@ -49,12 +49,44 @@
                     ul {
                         font-size: 16px;
                     }
+                    
+                    @media screen and (max-width:760px) {
+                        ul {
+                            font-size: 14px;
+                        }
+                        #name {
+                            margin-top: 24px;
+                            font-size: 20px;
+                            margin-left: 15px;
+                        }
+                    }
+                    @media screen and (max-width:475px) {
+                        ul {
+                            display: none;
+                        }
+                        #name {
+                            margin-top: 5px;
+                        }
+                    }
                 }
                 .three-wide:first-child {
                     margin-right: 2%
                 }
                 .three-wide:last-child {
                     margin-left: 2%;
+                }
+                @media screen and (max-width:760px) {
+                    height: 80px;
+                }
+                @media screen and (max-width:560px) {
+                    height: 100px;
+                }
+                @media screen and (max-width:475px) {
+                    height: 40px;
+                    margin-top: -40px;
+                    .three-wide:first-child {
+                        width: 100%;
+                    }
                 }
             }
             @media screen and (max-width:990px) {
