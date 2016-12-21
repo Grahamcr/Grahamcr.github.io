@@ -22,6 +22,46 @@
         margin-left: auto;
         margin-right: auto;
         
+        #top-line-sub-990 {
+            display: none;
+            
+            img {
+                width: 100%;
+                z-index: 1;
+            }
+            
+            #info-bar {
+                background-color: @primary-blue;
+                height: 100px;
+                width: 100%;
+                margin-top: -50px;
+                z-index: 20;
+                position: relative;
+                
+                .three-wide {
+                    width:32%;
+                    float:left;
+                    color: #FFF;
+                    #name {
+                        font-size: 28px;
+                        margin-left: 10px;
+                    }
+                    ul {
+                        font-size: 16px;
+                    }
+                }
+                .three-wide:first-child {
+                    margin-right: 2%
+                }
+                .three-wide:last-child {
+                    margin-left: 2%;
+                }
+            }
+            @media screen and (max-width:990px) {
+                display: inherit;
+            }
+        }
+        
         #top-line {
             #profile-pic {
                 width: 40%;
@@ -148,13 +188,16 @@
                             }
                         }
                     }
+                    
                 }
 
+            }
+            @media screen and (max-width:990px) {
+                display: none;
             }
         }
         #second-line {
             clear: both;
-            height: 500px;
             
             #stats {
                 background-color:@primary-blue;
@@ -216,6 +259,9 @@
                         line-height: 16px;
                     }
                 }
+                @media screen and (max-width:990px) {
+                    display: none;
+                }
             }
 
             #about-section {
@@ -257,6 +303,10 @@
                             line-height: 18px;
                         }  
                     }
+                }
+                @media screen and (max-width:990px) {
+                    left: 0px;
+                    top: -50px;
                 }
             }
         }
