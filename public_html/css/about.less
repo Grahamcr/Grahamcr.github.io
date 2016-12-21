@@ -2,169 +2,148 @@
 #behind-header {
     height: 60px;
     width: 100%;
-    background-color: @craig-blue;
+    background-color: @primary-blue;
 }
 #about-page {
     .standard-text();
     
-    #top-line {
-        width: 90%;
-        margin-left: 5%;
-        height: 215px;
-        margin-bottom: 25px;
-        
-        #picture-area {
-            width:200px;
-
-            margin-right: 40px;
-            float:left;
-            img {
-                width: 100%;   
-                border: solid 8px @craig-blue;
-            }
-            @media screen and (max-width:980px) {
-                width:180px;
-            }
-            @media screen and (max-width:810px) {
-                clear: both;
-                display: inline-block;
-                width:100%;
-                margin-bottom: 20px;
-                text-align: center;
-                img {
-                    width: 200px;
-                }
-            }
-        }
-        #quote-area {
-            margin-left: 30px;
-            padding-right: 0px;
-            #name {
-                color: @craig-blue;
-                font-size: 60px;
-                font-weight: 500;
-                margin-bottom: 0px;
-            }
-            #quote {
-                margin-top: 10px;
-                font-size: 25px;
-                line-height: 30px;
-
-            }
-            @media screen and (max-width:1200px) {
-                #quote {
-                    font-size: 22px;
-                    margin-top: 15px;
-                }
-            }
-            @media screen and (max-width:980px) {
-                #quote {
-                    font-size: 20px;
-                    line-height: 25px;
-                    margin-top: 10px;
-                }
-                #name {
-                    font-size: 50px;
-                    margin-bottom: 0px;
-                }
-            }
-             @media screen and (max-width:810px) {
-                #name {
-                    text-align: center;
-                }
-                #quote {
-                    text-align: center;
-                    font-size: 18px;
-                }
-            }
-            @media screen and (max-width:640px) {
-                #name {
-                    font-size: 45px;
-                }
-                #quote {
-                    font-size: 16px;
-                }
-            }
-            @media screen and (max-width:350px) {
-                #name {
-                    font-size: 30px;
-                }
-            }
-            @media screen and (max-width:810px) {
-                margin-left: 0px;
-                padding-left: 30px;
-                padding-right: 30px;
-            }
-        }
-        @media screen and (max-width:810px) {
-            margin-bottom: 200px;
-            width: 100%;
-            margin-left: 0px;
-        }
-        @media screen and (max-width:640px) {
-            margin-bottom: 210px;
-        }
-        @media screen and (max-width:470px) {
-            margin-bottom: 250px;
-        }
-        @media screen and (max-width:350px) {
-            margin-bottom: 280px;
-        }
-        
-        
-    }
-    #stats-line {
-        width: 95%;
-        margin-left: 2.5%;
+    #page-title {
+        font-size: 60px;
+        width:100%;
         text-align: center;
-        margin-bottom: 150px;
+    }
+    
+    #page-containter {
+        max-width: 1700px;
+        width: 90%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
         
-        .stat {
-            width: 25%;
-            float: left;
+        #top-line {
+            #profile-pic {
+                width: 40%;
+                float:left;
+            }
+
+            #right-of-pic {
+                width:60%;
+                float:right;
+
+
+                #quote-area {
+                    z-index: 100;
+                    position: relative;
+                    top: 20px;
+                    left: -100px;
+                    #arrow {
+                        width: 0; 
+                        height: 0; 
+                        border-top: 30px solid transparent;
+                        border-bottom: 30px solid transparent; 
+                        float:left;
+                        margin-top: 25px;
+                        border-right:30px solid @primary-blue;
+                        position: relative;
+                        left: -30px;
+
+                    }
+                    #quote-box {
+                        background-color: @primary-blue;
+                        padding: 5px 20px 5px 20px;
+                        width: 100%;
+                        p {
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: #FFF;
+                        }
+
+                    }    
+
+                }
+
+                #details-area {
+                    width:90%;
+                    margin-left: 7%;
+                    margin-top: 50px;
+
+                    .details-block {
+                        width:50%;
+                        float:left;
+                        height: 160px;
+
+                        img {
+                            float: left;
+                            width: 130px;
+                            margin-right: 5px;
+                        }
+
+                        p {
+                            font-size: 20px;
+                            margin-top: 35px;
+                        }
+                    }
+                }
+
+            }
+        }
+        
+        #stats {
+            background-color:@primary-blue;
+            padding: 5px;
+            width: 350px;
+            height: 450px;
+            position: relative;
+            clear: both;
             
-            p {
-                font-size: 20px;
+            #stats-header {
+                color:#FFF;
+                font-size: 36px;
+                margin-top: 30px;
+                margin-bottom: 45px;
+                text-align: center;
+            }
+            
+            #stats-area {
+                font-size: 18px;
+                line-height: 18px;
+                margin-top: 0px;
+                margin-bottom: 5px;
+                #stats-left {
+                    color: #FFF;
+                    text-align: right;
+                    width: 40%;
+                    float: left;
+                    
+                }
+                #stats-right {
+                    color: @primary-yellow;
+                    text-align: left;
+                    width: 50%;
+                    float: right;
+                }
                 
-                span {
-                    color: @craig-blue;
-                    font-weight: 400;
+                .stats-line {
+                    width:80%;
+                    height: 2px;
+                    margin-left: 10%;
+                    background-color: #FFF;
+                }
+                
+                #stats-line1 {
+                    clear: both;
+                }
+                #stats-line2 {
+                    clear: both;
                 }
             }
-            @media screen and (max-width:1310px) {
-                width: 50%;
-                margin-bottom: -25px;
-            }
-            @media screen and (max-width:640px) {
-               margin-bottom: -10px;
-                p {
-                    font-size: 14px;
-                }
-            }
-            @media screen and (max-width:470px) {
-                width: 100%;
-                clear: both;
-            }
-            
         }
     }
-    .line-sep {
-        width:40%;
-        margin-left: 30%;
-        height: 4px;
-        background-color: @craig-blue;
-        margin-bottom: -30px;
-        
-        @media screen and (max-width:810px) {
-            margin-top: 350px;
-        }
-        @media screen and (max-width:470px) {
-            margin-top: 430px;
-        }
-        @media screen and (max-width:350px) {
-            margin-top: 460px;
-        }
-    }
+    
+
+
     .section {
         margin-top: 100px;
         margin-left: 5%;
