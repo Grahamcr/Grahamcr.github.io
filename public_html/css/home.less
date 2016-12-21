@@ -949,6 +949,9 @@
                 
                 .process-icon {
                     float: left;
+                    height: 350px;
+                    position: relative;
+                    
                     img {
                         width: 200px;
                         display: inline-block;
@@ -959,6 +962,7 @@
                         font-size: 24px;
                         margin:0px;
                         cursor: pointer;
+                        line-height: 30px;
                     }
                     .process-c2a {
                         .std-button();
@@ -966,7 +970,26 @@
                         color:#FFF;
                         display: inline-block;
                         cursor: pointer;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        margin-left: auto;
+                        margin-right: auto;
+                        bottom: 0px;
                     }
+                    @media screen and (max-width:870px) {
+                        height: 315px;
+                        img {
+                            width: 150px;
+                        }
+                        .step-name {
+                            font-size: 20px;
+                        }
+                    }
+                    @media screen and (max-width:600px) {
+                        height: 290px;
+                    }
+                    
                 }
             }
             .process-tools {
@@ -979,8 +1002,22 @@
                 span {
                     font-weight: 900;
                 }
+                
+                @media screen and (max-width:930px) {
+                    width:80%;
+                    margin-left: 10%;
+                }
+                @media screen and (max-width:600px) {
+                    margin-top: -20px;
+                }
             }
         }
+        @media screen and (max-width:600px) {
+                        
+                #define, #ideate, #test, #implement {
+                    
+                }
+            }
         
         #empathize, #prototype {
             margin-top: 70px;
@@ -996,6 +1033,22 @@
                     margin-left:2.5%;
                     margin-right: 17.5%;
 
+                }
+            }
+            @media screen and (max-width:600px) {
+                
+                .process-icons-wrapper {
+                    .process-icon, .process-icon:last-child, .process-icon:first-child {
+                        width: 100%;
+                        clear: both;
+                        margin-left: 0px;
+                        margin-bottom: 100px;
+                        display: inline-block;
+                        left: 0;
+                        right: 0;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
                 }
             }
         }
@@ -1016,6 +1069,22 @@
                     margin-left:2.5%;
                     margin-right: 10%;
 
+                }
+            }
+            @media screen and (max-width:600px) {
+                
+                .process-icons-wrapper {
+                    .process-icon, .process-icon:last-child, .process-icon:first-child, .process-icon:nth-child(2) {
+                        width: 100%;
+                        clear: both;
+                        margin-left: 0px;
+                        margin-bottom: 100px;
+                        display: inline-block;
+                        left: 0;
+                        right: 0;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
                 }
             }
         }
