@@ -35,6 +35,9 @@
       };
       
       
+      ga('set', 'page', '/contact.html');
+      ga('send', 'pageview');
+      
       
       /*******************************************************************************
       *  Send the feedback to MyApps Admin using ajax call
