@@ -1177,5 +1177,28 @@
         }
         
     }
-    
+    #footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        
+        #tractor-bottom {
+            width:165px;
+            position: absolute;
+            bottom: 25px;
+            left: 175px;
+            
+            @media screen and (max-width:360px) {
+                left: 50px;
+            }
+        }
+        
+        #grass-bar {
+            background-color: @primary-green;
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            height: 40px;
+        }
+    }
 }
