@@ -1,239 +1,120 @@
 @import "global.less";
 
 #contact-page {
-    
+    .standard-text();
 
     
-    .top-img {
     
-        width:100%;
-        position: absolute;
-        top:0px;
-        left: 0px;
-        bottom: 0px;
-        right: 0px;
-        overflow: hidden;
+    #contact-wrapper {
+        width:70%;
+        margin-left: 15%;
+        height: 550px;
+        margin-top: 100px;
         
-        
-        #header-img {
-
-            -webkit-background-size: cover;
-              -moz-background-size: cover;
-              -o-background-size: cover;
-              background-size: cover;
-          
-            display: inline-block;
-            position: absolute;
-            bottom: 0px;
-            left: 0px;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-        }  
-
-        #img-overlay {
-            text-align: center;
-            .standard-text();
-            position: absolute;
-            top:0px;
-            bottom: 0px;
-            left: 0px;
-            right: 0px;
-            width: 100%;
-            background-color: rgba(0, 0, 0, .5);
-             #learn-more {
-                .standard-text();
-                position: relative;
-                top: 100px;
-                width:400px;
-                margin-left:-200px;
-                text-align: center;
-                left:50%;
-                overflow: hidden;
-
-                #text {
-                    font-size: 30px;
-                    position: relative;
-                    top: 10px;
-                    cursor: pointer;
-                    color:#FFF;
-                    
-                    @media screen and (max-width:400px) {
-                        font-size: 20px;
-                    }
-                }
-                #cheveron-down {
-                    cursor: pointer;
-                    font-size: 60px;
-                    color: #FFF;
-                    display:inline-block;
-                    -webkit-transform:scale(1.5,1); /* Safari and Chrome */
-                    -moz-transform:scale(1.5,1); /* Firefox */
-                    -ms-transform:scale(1.5,1); /* IE 9 */
-                    -o-transform:scale(1.5,1); /* Opera */
-                    transform:scale(1.5,1); /* W3C */
-                }
-            }
-            
-            #overlay-title {
-                margin-top:130px;
-                font-size:95px;
-                color:#fff;
-                width:75%;
-                margin-left:50%;
-                position: relative;
-                left:-36.5%;
-                line-height: 105px;
-
-                span {
-                    color:@innovation-yellow;
-                }
-                
-                @media screen and (max-width:710px) {
-                    font-size: 60px !important;
-                    line-height: 70px !important;
-                }
-                @media screen and (max-width:500px) {
-                    font-size: 60px !important;
-                    line-height: 70px !important;
-                }
-                @media screen and (max-width:400px) {
-                    font-size: 40px !important;
-                    line-height: 50px !important;
-                }
-            }
-            #overlay-text {
-                font-size:50px;
-                margin-top:50px;
-                color:#fff;
-
-                span {
-                    color:@innovation-yellow;
-                }
-                @media screen and (max-width:710px) {
-                    font-size: 25px !important;
-                    line-height: 35px !important;
-                }
-                @media screen and (max-width:500px) {
-                    font-size: 25px !important;
-                    line-height: 35px !important;
-                }
-                @media screen and (max-width:400px) {
-                    font-size: 20px !important;
-                    line-height: 25px !important;
-                }
-            }
-
-        }
-
-    }
-    
-    #below-fold-content {
-        position: absolute;
-        top:100%;
-        .standard-text();
-        width: 100%;
-        
-        #contact-overlay {
-            background: rgba(0,0,0,.7);
-            position: absolute;
-            top:0px;
-            bottom: 0px;
-            left: 0px;
-            right: 0px;
-            width: 100%;
-            z-index: 5;
-            display: none;
-        }
-        
-        #contact-header {
-            text-align: center;
-            font-size: 40px;
-            margin-top: 50px;
-            padding-right: 30px;
-            padding-left: 30px;
-            line-height: 50px;
-            
-            @media screen and (max-width:400px) {
-                font-size: 35px;
-                line-height: 45px;
-            }
-        }
-        
-        #contact-subtitle {
-            text-align: center;
-            font-size: 24px;
-            padding: 0px 20px;
-            line-height: 32px;
-            @media screen and (max-width:400px) {
-                font-size: 20px;
-                line-height: 25px;
-            }
-        }
-        #contact-form {
-            margin-top: 80px;
-            width:80%;
-            margin-left:10%;
+        #left-side {
+            width:60%;
+            padding-right: 7%;
+            border-right: @primary-blue solid 1px;
+            float:left;
             
             #contact-area {
-                margin-left: 100px;
-                width: 50%;
                 text-align: left;
-                margin-top: 100px;
-                margin-left: 25%;
-                margin-bottom: 200px;
+                margin-top: 20px;
+                display: inline-block;
+                text-align: center;
+                position: relative;
+                padding-bottom: 70px;
+                
                 p{
-                    font-size: 30px;
-                    color: @craig-blue;
-                    font-weight: 400;
+                    font-size: 28px;
+                    text-align: left;
+                    font-weight: 900;
                     margin-bottom: 60px;
+                    .cursive-text();
                 }
                 input {
-                    font-size: 25px;
+                    font-size: 20px;
                     width:100%;
                     background:none;
                     border: none;
                     margin-bottom: 50px;
-                    border-bottom: 2px solid @craig-blue;
+                    border-bottom: 2px solid @primary-blue;
                     
                 }
                 
                 #submit-btn {
-                    padding: 20px 30px;
+                    padding: 14px 70px;
                     color:@craig-blue;
-                    border:2px solid @craig-blue;
-                    font-size: 20px;
+                    background-color: @primary-blue;
+                    font-size: 18px;
                     font-weight: 400;
                     position: relative;
                     top: 40px;
                     border-radius: 5px;
                     cursor: pointer;
+                    color: #FFF;
+                    position: absolute;
+                    left: 0px;
+                    top: 370px;
                 }
                 #submit-btn:hover {
-                    background-color: @craig-blue;
-                    color:#FFF;
+                    background-color: @primary-yellow;
                 }
                 @media screen and (max-width:1200px) {
-   
+                    margin-top: 50px;
                     width: 60%;
+                    margin-left: 20%;
                 }
                 @media screen and (max-width:1100px) {
-                    margin-left: 50px;
-                    width: 85%;
+                    width: 65%;
+                    margin-left: 17.5%;
                 }
-                @media screen and (max-width:800px) {
-                    margin-left: 0px;
-                    width: 100%;
+                @media screen and (max-width:570px) {
+                    p {
+                        font-size:50px;
+                    }
                 }
                 @media screen and (max-width:500px) {
                     input {
-                        font-size: 18px;
+                        font-size: 16px;
                     }
                 }
             }
         }
         
+        #right-side {
+            width: 30%;
+            float: right;
+            position: relative;
+            top: 20px;
+            
+            #contact-me-header {
+                font-size: 28px;
+                font-weight: 900;
+                .cursive-text();
+            }
+            
+            .cm-header {
+                .standard-text();
+                color:@primary-blue;
+                font-weight: 500;
+                font-size: 20px;
+                margin-top: 50px;
+                line-height: 20px;
+                margin-bottom: -10px;
+            }
+            
+            .cm-text {
+                .standard-text();
+                font-size: 18px;
+            }
+            
+        }
+        
     }
+    
+ 
+
     
     /** Loading Indicator **/
     #loading, #thanks, #error {
@@ -394,156 +275,5 @@
 
 }
 
-@media screen and (max-width: 1220px) {
-    #contact-page {
-        #below-fold-content {
-            #contact-form {
 
-                .row {
-                    clear: both;
-                    padding-bottom: 50px;
-                    .form-title {
-                        width:30%;
 
-                    }
-                    .contact-input {
-
-                        width:45%;
-
-                    }
-                    .contact-input.select {
-                        width: 47.2%;
-                    }
-                    .contact-textarea {
-                        width:45%;
-
-                    }
-                    .hint-text {
-                        display: none;
-                    }
-                }
-            }
-        }
-    }
-
-}
-@media screen and (max-width: 1100px) {
-    #contact-page {
-        #below-fold-content {
-            #contact-form {
-
-                .row {
-                    margin-bottom: 30px;
-                    padding-bottom: 30px;
-                    height: 100px;
-                    .form-title {
-                        width:100%;
-                        text-align: left;
-                        clear: both;
-                        margin-top: 10px;
-                        margin-right: 0px;
-                    }
-                    .contact-input {
-                        clear:both;
-                        width:100%;
-                        margin-bottom: 10px;
-                    }
-                    .contact-input.select {
-                        width:101%;
-                    }
-                    .contact-textarea {
-                        width:100%;
-                        height: 300px;
-                        clear:both;
-                    }
-                }
-
-            }
-            
-        }
-    }
-}
-@media screen and (max-width: 900px) {
-    #contact-page {
-        
-        .top-img {
-
-            #img-overlay {
-              
-                #overlay-title {
-                    font-size:75px;
-                    line-height: 85px;
-
-                }
-                #overlay-text {
-                    font-size:40px;
-                    margin-top:50px;
-                    color:#fff;
-                    padding: 0px 10px;
-                }
-
-            }
-
-        }
-    }
-}
-@media screen and (max-width: 700px) {
-    #contact-page {
-        #below-fold-content {
-            #contact-form {
-                width:70%;
-                margin-left:10%;
-                .row {
-                    margin-bottom: 30px;
-                    padding-bottom: 30px;
-                    height: 100px;
-                    .form-title {
-                        width:100%;
-                        text-align: left;
-                        clear: both;
-                        margin-top: 10px;
-                        margin-right: 0px;
-                    }
-                    .contact-input {
-                        clear:both;
-                        width:100%;
-                        margin-bottom: 10px;
-                    }
-                    .contact-textarea {
-                        width:100%;
-                        height: 300px;
-                        clear:both;
-                    }
-                }
-                #submit-btn {
-                    margin-right: 0px;
-                }
-            }
-            
-        }
-    }
-}
-
-@media screen and (max-width: 490px) {
-    #contact-page {
-        
-        .top-img {
-
-            #img-overlay {
-              
-                #overlay-title {
-                    font-size:55px;
-                    line-height: 85px;
-
-                }
-                #overlay-text {
-                    font-size:30px;
-                    margin-top:50px;
-                    padding: 0px 10px;
-                }
-
-            }
-
-        }
-    }
-}
