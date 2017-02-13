@@ -291,6 +291,27 @@
     ]
 },
 {
+    "name": "Storyboards",
+    "color": "blue",
+    "id": "sb",
+    "icon": "img/isw/storyboard.png",
+    "intro": "WIP.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/iswi.png",
+            "title": "Example 1",
+            "location": "example_artifacts/Storyboards/darryl_storyboard.png",
+            "caption": "WIP"
+        },
+        {
+            "img": "img/isw/exampleIcons/maas.png",
+            "title": "Example 2",
+            "location": "example_artifacts/Storyboards/joe_storyboard.png",
+            "caption": "WIP"
+        }
+    ]
+},
+{
     "name": "Graphic Design Work",
     "color": "blue",
     "id": "gdw",
