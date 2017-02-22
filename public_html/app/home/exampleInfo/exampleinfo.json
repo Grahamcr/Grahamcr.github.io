@@ -95,27 +95,27 @@
     "examples": [
         {
             "img": "img/isw/exampleIcons/GhostRedPersonas.png",
-            "title": "GhostRed Personas",
+            "title": "GhostRed Internal Personas",
             "location": "example_artifacts/Personas/Personas_GR.docx",
-            "caption": "Personas for an internal/external recruiting platform "
+            "caption": "Very detailed Personas for an internal/external recruiting platform based on User Research Interviews."
         },
         {
             "img": "img/isw/exampleIcons/DeveloperCommunityPersonas.png",
             "title": "Developer Community Personas",
             "location": "example_artifacts/Personas/Personas.pptx",
-            "caption": "Personas for an internal developer community"
+            "caption": "Personas for an internal developer community based on Contextual Inquery Results and User Research Interviews."
         },
         {
             "img": "img/isw/exampleIcons/MyAppsPersonas.png",
             "title": "MyApps Anywhere Team Personas",
             "location": "example_artifacts/Personas/Personas_MyApps.docx",
-            "caption": "Personas for the team I was apart of when we were trying to decide on our next phase of agile tooling"
+            "caption": "Personas for the team I was a part of when we were trying to decide on our next phase of agile tooling."
         },
         {
             "img": "img/isw/exampleIcons/NOWPersonas.png",
             "title": "NOW Answer Engine Personas",
             "location": "example_artifacts/Personas/Personas_Now.docx",
-            "caption": "Personas for an internal search engine project"
+            "caption": "Personas for an internal search engine project based on Contextual Inquery Results, User Research Interviews and Web Analytics."
         }
     ]
 },
@@ -148,16 +148,16 @@
             "caption": "Deep interaction mockups with limited responsive design shown for an internal recruiting platform"
         },
         {
+            "img": "img/isw/exampleIcons/tracking_icon.png",
+            "title": "Live Vehicle and Event Searching Application",
+            "location": "example_artifacts/Mockups/LVES/index.html",
+            "caption": "Deep interaction mockup for an application used to search fleet vehicle events and track the fleet live on a map"
+        },
+        {
             "img": "img/isw/exampleIcons/now2mocks.png",
             "title": "NOW Answer Engine Mockup",
             "location": "example_artifacts/Mockups/NOW2Mocks/DesignB/index.html",
             "caption": "Deep interaction mockups for a crowdsourced internal search platform"
-        },
-        {
-            "img": "img/isw/exampleIcons/SandcastleMocks.png",
-            "title": "SANDCASTLE Design Suite Mockup",
-            "location": "example_artifacts/Mockups/sandcastlePivotMocks/v1/index.html",
-            "caption": "Deep interaction mockups for an internal “click and drag” website development tool"
         },
         {
             "img": "img/isw/exampleIcons/maaMock.png",
@@ -280,13 +280,13 @@
             "img": "img/isw/exampleIcons/iswi.png",
             "title": "Innovation Studio Accelerator",
             "location": "example_artifacts/Infographics/isw.png",
-            "caption": "Infographic for an internal project team accelerator program"
+            "caption": "Infographic for an internal project team accelerator program.  This was used to pitch the idea to C level executives within the company."
         },
         {
             "img": "img/isw/exampleIcons/maas.png",
             "title": "MyApps Anywhere Infographic",
             "location": "example_artifacts/Infographics/maas.png",
-            "caption": "Infographic showing how an application works"
+            "caption": "Infographic showing how an application works, designed specifically to quickly bring new developers up to speed and make users more trusting of the service."
         }
     ]
 },
@@ -295,19 +295,19 @@
     "color": "blue",
     "id": "sb",
     "icon": "img/isw/storyboard.png",
-    "intro": "WIP.",
+    "intro": "Storyboard are a great way to communicate to users our understanding of their interactions with an application, how they work and what they need. They are also useful artifacts of shared understanding between the desginer and development teams.",
     "examples": [
         {
-            "img": "img/isw/exampleIcons/iswi.png",
-            "title": "Example 1",
-            "location": "example_artifacts/Storyboards/darryl_storyboard.png",
-            "caption": "WIP"
+            "img": "img/isw/exampleIcons/d_storyboard.png",
+            "title": "Primary Persona Retrospective Storyboard",
+            "location": "example_artifacts/Storyboards/darryl_storyboard_v2.png",
+            "caption": "A verbose approach for retrospective storyboarding that depicts a scene where the project's primary persona was trying to debug a problem in the system."
         },
         {
-            "img": "img/isw/exampleIcons/maas.png",
-            "title": "Example 2",
-            "location": "example_artifacts/Storyboards/joe_storyboard.png",
-            "caption": "WIP"
+            "img": "img/isw/exampleIcons/j_storyboard.png",
+            "title": "Secondary Persona Negative Experience Storyboard",
+            "location": "example_artifacts/Storyboards/joe_storyboard_v2.png",
+            "caption": "A retrospective storyboard showing a scene where one of the project's secondary personas faced difficultly creating a overview slide."
         }
     ]
 },
