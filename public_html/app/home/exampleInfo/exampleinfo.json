@@ -349,6 +349,21 @@
             "caption": "Graphic for the GhostRed product"
         }
     ]
+},
+{
+    "name": "Paper Prototypes",
+    "color": "blue",
+    "id": "pps",
+    "icon": "img/isw/results_survey.png",
+    "intro": "One of the fastest ways to move from ideation to testing is to use Paper Prototypes.  I have found clients love how quickly I can use these low fidelity mocks to translate abstract concepts into a testable visual artifact.",
+    "examples": [
+        {
+            "img": "example_artifacts/PaperPrototypes/ponyak.jpg",
+            "title": "Ponyak Team Building Application",
+            "location": "example_artifacts/PaperPrototypes/ponyak.jpg",
+            "caption": "During a week on the bench I helped to desgin team forecasting application using a rapid prototype feedback cycle. Here is an example of what some of those prototypes looked like."
+        }
+    ]
 }
     
     
