@@ -369,7 +369,7 @@
     "name": "Mind Maps",
     "color": "orange",
     "id": "mm",
-    "icon": "img/isw/brainstorm.png",
+    "icon": "img/isw/paper.png",
     "intro": "Mind Maps... because brainstorming is dumb. Mind Maps encourage UX designers to communicate their divergent, stream of consciousness solutions during ideation sessions more effectively than brainstorming. ",
     "examples": [
         {
