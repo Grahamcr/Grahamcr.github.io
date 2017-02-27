@@ -39,6 +39,8 @@
 
                 $('#'+attrs.ename).show();
                 $('#overlay').show();
+                $('body').css("overflow", "hidden");
+                $('html').css("overflow", "hidden");
 
             });
         };
@@ -52,8 +54,9 @@
 
                 $('.example-modal').hide();
                 $('#overlay').hide();
-
-
+                $('body').css("overflow-y", "auto");
+                $('html').css("overflow-y", "auto");
+                
             });
         };
     }])
