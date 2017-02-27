@@ -457,6 +457,56 @@
             margin-top: 50px;
         }
         
+        #mind-map {
+            
+            #title {
+                font-size: 50px;
+                font-weight: 400;
+                color: @primary-blue;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                text-align: left;
+            }
+            
+            #subtitle {
+                font-size: 25px;
+                line-height: 33px;
+                text-align: left;
+                margin-top: -10px;
+                margin-bottom: 60px;
+            }
+            
+            img {
+                width: 100%;
+                max-width: 1400px;
+            }
+            border-top: 2px solid @primary-blue;
+            width:100%;
+            display: inline-block;
+            text-align: center;
+            margin-top:100px;
+            padding-top: 30px;
+            
+            @media screen and (max-width:980px) {
+                #title {
+                    font-size: 40px;
+                }
+                #subtitle {
+                    font-size: 22px;
+                    line-height: 28px;
+                }
+            }
+            @media screen and (max-width:450px) {
+                #title {
+                    font-size: 30px;
+                }
+                #subtitle {
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+        }
+        
         #learn-more {
             text-align: center;
             position: relative;
@@ -509,6 +559,7 @@
                 #title {
                     font-size: 30px;
                     margin-bottom: 20px;
+                    line-height: 35px;
                 }
                 #sub {
                     font-size: 18px;
