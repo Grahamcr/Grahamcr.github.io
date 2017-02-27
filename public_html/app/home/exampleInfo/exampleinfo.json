@@ -364,6 +364,21 @@
             "caption": "During a week on the bench I helped to desgin team forecasting application using a rapid prototype feedback cycle. Here is an example of what some of those prototypes looked like."
         }
     ]
+},
+{
+    "name": "Mind Maps",
+    "color": "orange",
+    "id": "mm",
+    "icon": "img/isw/brainstorm.png",
+    "intro": "Mind Maps... because brainstorming is dumb. Mind Maps encourage UX designers to communicate their divergent, stream of consciousness solutions during ideation sessions more effectively than brainstorming. ",
+    "examples": [
+        {
+            "img": "example_artifacts/MindMap/whatIsUX.png",
+            "title": "How I Personally View UX",
+            "location": "example_artifacts/MindMap/whatIsUX.png",
+            "caption": "This is how I describe what I get to do everyday as a UX Professional."
+        }
+    ]
 }
     
     
