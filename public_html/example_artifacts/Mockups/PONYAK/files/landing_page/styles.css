@@ -145,25 +145,13 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u10_div {
+#u10_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:902px;
   height:100px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'MLingWaiMedium-SC', 'LingWai SC Medium', 'LingWai SC';
-  font-weight:500;
-  font-style:normal;
-  font-size:72px;
-  color:#FFFFFF;
 }
 #u10 {
   border-width:0px;
@@ -181,9 +169,10 @@
 #u11 {
   border-width:0px;
   position:absolute;
-  left:0px;
-  top:0px;
-  width:902px;
+  left:2px;
+  top:42px;
+  width:898px;
+  visibility:hidden;
   word-wrap:break-word;
 }
 #u12_img {
