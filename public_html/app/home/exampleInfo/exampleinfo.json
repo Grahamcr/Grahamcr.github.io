@@ -362,6 +362,12 @@
             "title": "Ponyak Team Building Application",
             "location": "example_artifacts/PaperPrototypes/ponyak.jpg",
             "caption": "During a week on the bench I helped to desgin team forecasting application using a rapid prototype feedback cycle. Here is an example of what some of those prototypes looked like."
+        },
+        {
+            "img": "example_artifacts/PaperPrototypes/coupling.jpg",
+            "title": "Developer Paring Application - Stats Page",
+            "location": "example_artifacts/PaperPrototypes/coupling.jpg",
+            "caption": "A page from a \"Coupling\" application showing team statistics which give team leaders insight into how well software developers are pairing with one another."
         }
     ]
 },
