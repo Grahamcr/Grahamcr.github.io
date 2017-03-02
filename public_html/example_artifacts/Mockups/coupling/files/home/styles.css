@@ -755,7 +755,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Roboto-Medium', 'Roboto Medium', 'Roboto';
+  font-family:'Roboto';
   font-weight:500;
   font-style:normal;
   font-size:18px;
@@ -768,7 +768,7 @@
   top:540px;
   width:290px;
   height:53px;
-  font-family:'Roboto-Medium', 'Roboto Medium', 'Roboto';
+  font-family:'Roboto';
   font-weight:500;
   font-style:normal;
   font-size:18px;
