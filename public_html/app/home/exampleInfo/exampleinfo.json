@@ -385,6 +385,21 @@
             "caption": "This is how I describe what I get to do everyday as a UX Professional."
         }
     ]
+},
+{
+    "name": "Low Fidelity",
+    "color": "yellow",
+    "id": "lfm",
+    "icon": "img/isw/paperPrototypes.png",
+    "intro": "Tired of hearing feedback such as \"Can the blue be bluer\" instead of comments on layout, flow and functionality? Struggling to get users to feel as though their feedback is valued and can actually impact the direction of a design? Then Low Fidelity mock ups might be perfect for your project.",
+    "examples": [
+        {
+            "img": "img/isw/exampleIcons/hwa.png",
+            "title": "Team Management A/B Design",
+            "location": "example_artifacts/LowFidelity/TMA/",
+            "caption": "This application lets delivery leads manage thier project protfolio.  The two mockups were designed to test if users would be able to find actionable information faster in a more streamlined approach or a more intellengent, but data intensive design."
+        }
+    ]
 }
     
     
