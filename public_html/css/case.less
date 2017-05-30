@@ -104,6 +104,11 @@
 
         .text-section {
             padding:0px;
+            padding-top: 80px;
+
+            &.grey-section {
+                background-color: #F4F6F7;
+            }
 
             .text-section-inner {
                 text-align: center;
@@ -123,8 +128,21 @@
                     font-size: 22px;
                     .standard-text();
                     line-height: 36px;
+                    padding-bottom: 20px;
                 }
-
+                
+                .section-title {
+                    text-transform: uppercase;
+                    font-weight: 900;
+                    .section-header();
+                    font-size: 18px;
+                    margin-top: 50px;
+                    
+                    &.left-align {
+                        text-align: left !important;
+                        padding-left: 0px;
+                    }
+                }
                 .sub-header {
                     font-size: 28px;
                     .standard-text();
@@ -160,10 +178,34 @@
                     padding-right: 0% !important;
                 }
             }
+            
+            
+            
 
         } //Text Section
         
+        .single-picture {
+            padding-top: 50px;
+            padding-bottom: 100px;
+            
+            .single-pic-col {
+                display: inline-block;
+                text-align: center;
+                
+                img {
+                    max-width: 100%;
+                    
+                }
+            }
+            
+            &.grey-section {
+                background-color: #F4F6F7;
+            }
+            
+        }
+        
         .quick-scroll {
+            padding-bottom: 80px;
             
             .title-row {
                 margin-top: 35px;
