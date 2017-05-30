@@ -4,7 +4,7 @@
         background-color: #003300;
         height: 95%;
         position: absolute;
-            
+        
         .hero-inner {
             padding-top: 100px;
             text-align: center;
@@ -22,6 +22,10 @@
                 font-size: 22px;
                 line-height: 40px; 
                 .standard-text();
+                margin-left: 10px;
+                position: relative;
+                left: 10px;
+
             }
             .disclaimer {
                 position: relative;
@@ -90,7 +94,7 @@
             .full-picture-col {
                 padding:0px;
                 position: relative;
-                top: 30px;
+                top: 10px;
                 
                 img {
                     width: 100%;
@@ -108,6 +112,7 @@
                 .text-header {
                     .section-header();
                     font-size: 40px;
+                    padding-left: 0px;
                     
                     &.left-align {
                         text-align: left;
@@ -131,9 +136,65 @@
                 &.left-align {
                     text-align: left;
                 }
+                
+                @media screen and (max-width:992px) {
+                    padding-right: 8% !important;
+                }
+                
+                @media screen and (max-width:600px) {
+                    .text-header {
+                        font-size: 32px;
+                    }
+
+                    .text {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+
+                    .sub-header {
+                        font-size: 22px;
+
+                    }
+                }
+                @media screen and (max-width:300px) {
+                    padding-right: 0% !important;
+                }
             }
 
+        } //Text Section
+        
+        .quick-scroll {
+            
+            .title-row {
+                margin-top: 35px;
+                margin-bottom: 35px;
+                .title-col {
+                    p {
+                        .standard-text();
+                        font-size: 22px;
+                        font-weight: 900;
+                        text-transform: uppercase;
+                    }
+                }
+                
+            }
+            
+            .quick-scroll-col {
+                text-align: center;
+                display: inline-block;
+                margin-bottom: 20px;
+                
+                img {
+                    width:75px;
+                }
+                p {
+                    text-transform: uppercase;
+                    font-weight: 900 !important;
+                    .standard-text();
+                    margin-top: 15px;
+                }
+            }
         }
     
-    }
+    } //Below the fold
 }
