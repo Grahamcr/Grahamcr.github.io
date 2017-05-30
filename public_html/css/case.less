@@ -15,6 +15,7 @@
                 font-size: 50px;
                 color: #FFF;
                 .section-header();
+                font-weight: 900;
             }
             .hero-description {
                 color: #FFF;
@@ -30,6 +31,48 @@
                 font-size: 14px;
                 line-height: 30px;
                 .standard-text();
+            }
+            @media screen and (max-width:768px) {
+                .hero-header {
+                    font-size: 40px;
+                }
+                .hero-description {
+                    font-size: 18px;
+                    line-height: 36px;
+                }
+                .disclaimer {
+                    font-size: 12px;
+                    line-height: 28px;
+                }
+            }
+            
+            @media screen and (max-width:528px) {
+                .hero-header {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+                .hero-description {
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+                .disclaimer {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+            }
+            @media screen and (max-width:388px) {
+                .hero-header {
+                    font-size: 35px;
+                    line-height: 45px;
+                }
+                .hero-description {
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+                .disclaimer {
+                    font-size: 10px;
+                    line-height: 15px;
+                }
             }
             
         }
@@ -80,6 +123,9 @@
                 .sub-header {
                     font-size: 28px;
                     .standard-text();
+                    font-weight: 900;
+                    margin-top: 55px;
+                    margin-bottom: 20px;
                 }
 
                 &.left-align {
