@@ -3,7 +3,7 @@
   
   'use strict';
 
-  angular.module('graham.contact')
+  angular.module('graham.av')
     .config(config);
 
   /**
@@ -13,9 +13,9 @@
   function config($routeProvider) 
   {
     $routeProvider
-      .when('/contact', {
-        controller: 'ContactController',
-        templateUrl: 'app/contact/contact.html'
+      .when('/av', {
+        controller: 'AVController',
+        templateUrl: 'app/av/av.html'
       });
   }
 

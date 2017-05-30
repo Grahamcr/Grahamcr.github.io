@@ -1,0 +1,93 @@
+@import "global.less";
+.case-page {
+    .hero-block {
+        background-color: #003300;
+        height: 95%;
+        position: absolute;
+            
+        .hero-inner {
+            padding-top: 100px;
+            text-align: center;
+            
+            .hero-header {
+                text-transform: uppercase;
+                font-weight: bolder;
+                font-size: 50px;
+                color: #FFF;
+                .section-header();
+            }
+            .hero-description {
+                color: #FFF;
+                font-size: 22px;
+                line-height: 40px; 
+                .standard-text();
+            }
+            .disclaimer {
+                position: relative;
+                top: 10px;
+                font-style: italic;
+                color: #4D5A6A;
+                font-size: 14px;
+                line-height: 30px;
+                .standard-text();
+            }
+            
+        }
+    }
+    .below-fold {
+        position: absolute;
+        top:100%;
+        width: 100%;
+        
+        
+         .full-picture {
+             padding: 0px;
+             margin-bottom: 100px;
+             
+            .full-picture-col {
+                padding:0px;
+                position: relative;
+                top: 30px;
+                
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .text-section {
+            padding:0px;
+
+            .text-section-inner {
+                text-align: center;
+                padding: 0px;
+
+                .text-header {
+                    .section-header();
+                    font-size: 40px;
+                    
+                    &.left-align {
+                        text-align: left;
+                    }
+                }
+
+                .text {
+                    font-size: 22px;
+                    .standard-text();
+                    line-height: 36px;
+                }
+
+                .sub-header {
+                    font-size: 28px;
+                    .standard-text();
+                }
+
+                &.left-align {
+                    text-align: left;
+                }
+            }
+
+        }
+    
+    }
+}

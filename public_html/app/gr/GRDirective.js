@@ -2,7 +2,7 @@
 (function () {
     'use strict';
 
-    angular.module('graham.contact')
+    angular.module('graham.gr')
     
     
     

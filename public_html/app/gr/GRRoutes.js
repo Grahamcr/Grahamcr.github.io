@@ -3,7 +3,7 @@
   
   'use strict';
 
-  angular.module('graham.contact')
+  angular.module('graham.gr')
     .config(config);
 
   /**
@@ -13,9 +13,9 @@
   function config($routeProvider) 
   {
     $routeProvider
-      .when('/contact', {
-        controller: 'ContactController',
-        templateUrl: 'app/contact/contact.html'
+      .when('/gr', {
+        controller: 'GRController',
+        templateUrl: 'app/gr/gr.html'
       });
   }
 
