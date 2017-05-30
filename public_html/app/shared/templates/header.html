@@ -1,31 +1,30 @@
-<div class="header" hide-on-scroll>    
-    
-    <div id="header-left">
-        <img src="img/cg_logo.png" id="header-img" redirect-home>
-        <p id="header-name" redirect-home>CRAIG GRAHAM</p>
+<div class="header">    
 
-    </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" redirect-home>
+            <img alt="Brand" src="img/cg_logo_black.png">  
+            <p id="name">CRAIG GRAHAM</p>
+          </a>
+        </div>
 
-    <div id="header-right">
-        <p class="link {{portfolio}}"redirect-home>Portfolio</p>
-        <p class="link {{about}}" redirect-about>About Me</p>
-        <p class="link {{contact}}" redirect-contact>Contact</p>
-    </div>
-    
-
-    <div class="responsive-icon">
-        <span class="fa fa-bars" open-menu></span>
-    </div>
-    
-    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav pull-right navbar-nav">
+            <li id="home-link" class="{{home}}"><a redirect-home>Home <span class="sr-only">(current)</span></a></li>
+            <li id="about-link" class="{{about}}"><a redirect-about>About</a></li>
+            <li id="watch-link" class="{{watch}}"><a redirect-contact>Watch</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     
 </div>
-
-<div class="responsive-menu">
-
-    <p class="menu-link {{portfolio}}"redirect-home>Portfolio</p>
-    <p class="menu-link {{about}}"redirect-about>About Me</p>
-    <p class="menu-link {{contact}}" redirect-contact>Contact</p>
-
-</div>
-<p class="close" close-menu>Close</p>

@@ -1,154 +1,57 @@
 @import "global.less";
 
 
-
 .header {
-    width:100%;
-    height: 60px;
-    position: absolute;
-    top:0px;
-    left: 0px;
-    z-index: 800;
     
-    #header-left {
-        width:250px;
-        position: absolute;
-        top: 20px;
-        
-        #header-img {
-            float: left;
-            height: 40px;
-            margin-top:-10px;
-            margin-left:20px;
-            cursor: pointer;
+    .navbar {
+        background-color: #FFF;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        height: 60px;
+        .container {
+            .navbar-header {
+                .navbar-brand {
+                    margin-left: -50px;
+                    width: 250px;
+                    img {
+                        height:35px;
+                        margin-top: -12.5px;
+                        float: left;
+                    }
+                    #name {
+                        .header-text();
+                        font-size: 16px;
+                        color: #444;
+                        font-weight: 700;
+                        position: relative;
+                        left: 15px;
+                        margin-top: -5px;
+                    }
+                }
+            }
+            .navbar-collapse {
+                .navbar-nav {
+                    li {
+                        a {
+                          .standard-text();
+                            color: @primary-blue;  
+                            font-size: 18px;
+                            cursor: pointer;
+                        }
+                    }
+                    li.active {
+                        a {
+                            background-color: transparent;
+                            font-weight: 900;
+                            color: @primary-red !important;
+                            font-size: 18px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
         }
-        #header-name {
-            height: 30px;
-            margin-left: 80px;
-            margin-top: -5px;
-            color:#FFF;
-            font-weight: 500;
-            font-size: 18px;
-            .standard-text();
-            cursor: pointer;
-        }
-        
-    }
-    
-    #header-right {
-        float: right;
-        margin-right: 60px;
-        
-        .link {
-            cursor: pointer;
-            color: #000;
-            .standard-text();
-            font-weight: 300;
-            font-size: 20px;
-            margin-top: 20px;
-            float: left;
-            text-align: right;
-            margin-left: 40px;
-        }
-        .link:hover {
-            color:@primary-yellow;
-        }
-        .link.true {
-            font-weight: 700;
-            color:@primary-yellow;
-            
-        }
-    }
-    .responsive-icon {
-        display: none;
-        font-size: 35px;
-        margin-top: 15px;
-        margin-right: 40px;
-        cursor: pointer;
-        color: @primary-yellow;
-        float: right;
-    }
-    
-    @media screen and (max-width: 630px) {
-        #header-right {
-            display: none;
-        }
-        .responsive-icon {
-            display: inherit;
-
-        }
-    }
-    @media screen and (min-width: 631px) {
-        #header-right {
-            display: inherit;
-        }
-        .responsive-icon {
-            display: none;
-
-        }
-    }
-}
-.responsive-menu {
-   position: fixed;
-    top:0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    width: 100%;
-    overflow: hidden;
-    background-color:@primary-blue;
-    .standard-text();
-    text-align: center;
-    display: none;
-    color: #FFF;
-    font-size: 30px;
-    font-weight: 400;
-    z-index: 900;
-    padding-top: 30%;
-    
-    .menu-link {
-        cursor: pointer;
-    }
-    
-    .menu-link:hover {
-        color:@primary-yellow;
-    }
-    .menu-link.true {
-        font-weight: 700;
-        color:@primary-yellow;
-
-    }
-
-
-}
-.close {
-    position: fixed;
-    top: 0px;
-    right: 30px;
-    font-size: 20px;
-    font-weight: 400 !important;
-    color: #FFF;
-    cursor: pointer;
-    z-index: 9999;
-    display: none;
-    .standard-text();
-}
-.close:hover {
-    color:@primary-yellow;
-}
-
-@media screen and (min-width: 631px) {
-
-    .responsive-menu, .close {
-        display: none !important;
-
-    }
-}
-
-@media screen and (max-width: 430px) {
-
-    .responsive-menu {
-        padding-top: 50%;
-
     }
 }
