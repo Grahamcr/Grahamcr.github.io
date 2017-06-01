@@ -1,12 +1,13 @@
 @import "global.less";
 .case-page {
     .hero-block {
-        background-color: #003300;
         height: 95%;
         position: absolute;
+        display: flex;
+          flex-direction: column;
+          justify-content: center;
         
         .hero-inner {
-            padding-top: 100px;
             text-align: center;
             
             .hero-header {
@@ -79,6 +80,12 @@
                 }
             }
             
+        }
+        &.green { 
+            background-color: #003300;
+        }
+        &.blue {
+            background-color: #1A1E23;
         }
     }
     .below-fold {
@@ -153,6 +160,38 @@
                     font-weight: 900;
                     margin-top: 55px;
                     margin-bottom: 20px;
+                    text-transform: uppercase;
+                }
+                
+                .standout-title {
+                    .section-header();
+                    font-weight: 900;
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    margin-top: 85px;
+                    margin-bottom: 10px;
+                }
+                .standout {
+                    .section-header();
+                    font-weight: 900;
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    margin-bottom: 25px;
+                    
+                    &.first {
+                        margin-top: 60px;
+                    }
+                    &.link {
+                        a {
+                            text-transform: uppercase;
+                            color:#008FD0;
+                            cursor: pointer;
+                            display: block;
+                        } 
+                    }
+                    &.last {
+                        padding-bottom: 100px;
+                    }
                 }
 
                 &.left-align {
@@ -176,6 +215,13 @@
                     .sub-header {
                         font-size: 22px;
 
+                    }
+                    .standout-title {
+                        font-size: 20px;
+                    }
+                    .standout {
+                        font-size: 20px;
+                        
                     }
                 }
                 @media screen and (max-width:300px) {
@@ -221,7 +267,6 @@
         
         .double-picture {
             padding-top: 50px;
-            padding-bottom: 100px;
             
             .double-pic-col {
                 width: 47%;
@@ -352,7 +397,7 @@
         }
         
         .three-wide-caption {
-            padding-bottom: 50px;
+            padding-bottom: 0px;
             .three-wide-caption-col {
                 display: inline-block;
                 text-align: center;
@@ -414,10 +459,61 @@
              &.grey-section {
                 background-color: #F4F6F7;
             }
+            
+            &.extra-pad {
+                padding-bottom: 60px;
+            }
+        }
+        
+        .callout {
+            .callout-col {
+                display: inline-block;
+                text-align: center;
+                
+                #top {
+                    border: 1px solid #797979;
+                    width: 15%;
+                    margin-bottom: 50px;
+                }
+                
+                p {
+                    .section-header();
+                    color: #009900;
+                    font-size: 28px;
+                }
+                
+                #bottom {
+                    margin-top: 50px;
+                    border: 1px solid #797979;
+                    width: 15%;
+                }
+            }
+        }
+        
+        .full-row-blocks {
+            .full-row-blocks-col {
+                height: 240px;
+                padding: 60px 20px;
+                text-align: left;
+                
+                
+                .spacing {
+                    border: solid 1px #797979;
+                    margin: 10px;
+                    .title {
+                        .section-header();
+                        font-weight: 900;
+                        font-size: 24px;
+                        text-align: left;
+                    }
+                    ul {
+                        .standard-text();
+                    }
+                }
+            }
         }
     
         .case-footer {
-            background-color: #003300;
             padding-bottom: 100px;
             padding-top: 100px;
             margin-top: 50px;
@@ -448,7 +544,12 @@
                     }
                 }
             }
-            
+            &.green { 
+                background-color: #003300;
+            }
+            &.blue {
+                background-color: #1A1E23;
+            }
         }
         
     } //Below the fold
