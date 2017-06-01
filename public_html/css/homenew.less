@@ -1,0 +1,105 @@
+@import "global.less";
+
+#homenew {
+    
+    .header-title {
+        margin-top: 20px;
+
+        .header-title-col {
+            display: inline-block;
+            text-align: center;
+
+            .main-title {
+                .section-header();
+                font-size: 60px;
+                margin-bottom: 0px;
+                font-weight: 900;
+            }
+            .title {
+                .section-header();
+                font-size: 35px;
+            }
+        }
+    }
+
+    .image-row {
+        position: relative;
+        top: -25px;
+        .image-col {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .tagline-row {
+        position: relative;
+        top: -150px;
+        .tagline-col {
+            p {
+                text-align: center;
+                .section-header();
+                font-size: 30px;
+                padding-right: 100px !important;
+                padding-left: 100px !important;
+            }
+        }
+    }
+    
+    .divider-row {
+        position: relative;
+        top: -100px;
+        .divider-col {
+            
+            #divider {
+                width: 20%;
+                margin-left: 40%;
+                display: inline-block;
+                border: solid 2px #CCC;
+            }
+        }
+    }
+    
+    .case-row {
+        position: relative;
+        top: -50px;
+        .case-title-col {
+            display: inline-block;
+            text-align: center;
+            p {
+                .section-header();
+                font-size: 30px;
+            }
+        }
+        
+        .case-studies-row {
+            position: relative;
+            top: 50px;
+            
+            padding-left: 50px!important;
+            padding-right: 50px !important;
+            .case-block-col {
+                display: inline-block;
+                text-align: center;
+                
+                img {
+                    max-width: 90%;
+                    margin-left: 5%;
+                }
+                p {
+                   .standard-text();
+                    margin-top: 15px;
+                    font-size: 22px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+                a {
+                    .section-header();
+                   color:#008FD0; 
+                    text-transform: uppercase;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+}
