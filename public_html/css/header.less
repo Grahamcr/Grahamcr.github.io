@@ -31,6 +31,22 @@
                     }
                 }
             }
+            #bs-example-navbar-collapse-1 {
+                @media screen and (max-width:768px) {
+                        z-index: 999;
+                        position: absolute;
+                        width: 100%;
+                        background-color: #FFF;
+                    }
+                .navbar-nav {
+                    @media screen and (max-width:992px) {
+                            float: right !important;
+                    }
+                    @media screen and (max-width:768px) {
+                            float: none!important
+                    }
+                }
+            }
             .navbar-collapse {
                     @media screen and (max-width:768px) {
                         z-index: 999;
@@ -45,7 +61,7 @@
                     @media screen and (max-width:768px) {
                             float: none!important
                     }
-                    ;
+                    
                     li {
                         margin-top: 10px;
                         a {
