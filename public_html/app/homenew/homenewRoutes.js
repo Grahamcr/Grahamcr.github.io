@@ -13,7 +13,7 @@
   function config($routeProvider) 
   {
     $routeProvider
-      .when('/new', {
+      .when('/', {
         controller: 'HomenewController',
         templateUrl: 'app/homenew/homenew.html'
       });
