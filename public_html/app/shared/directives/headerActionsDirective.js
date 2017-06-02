@@ -3,7 +3,18 @@
      'use strict';
      angular.module('graham')
          
-         /***************************************************************************************
+         
+     
+     
+     .directive("toggleMenu", ['$location', function ($location) {
+             return function (scope, element, attrs) {
+                 element.bind("click", function () {
+                     $("#menu").toggle();
+                 });
+             };
+        }])
+     
+     /***************************************************************************************
           * Redirect the user to the homepage
           ****************************************************************************************/
          .directive("redirectHome", ['$location', function ($location) {
