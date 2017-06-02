@@ -15,7 +15,7 @@
       *  Global Variables
       ********************************************************************************/
       
-      $scope.portfolio = true;
+      $scope.home = 'active';
       $scope.contact = false;
       $scope.about = false;
 
