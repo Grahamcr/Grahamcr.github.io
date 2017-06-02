@@ -4193,6 +4193,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-collapse {
+      
+    /**Added by Craig**/
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    background-color: #FFF;
+      
+      
+      
     width: auto;
     border-top: 0;
     -webkit-box-shadow: none;
@@ -4327,6 +4336,23 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  
+  /**Added by Craig **/  
+  font-size: 24px;
+  cursor: pointer;
+  color:#008FD0;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 200;
+}
+
+/**Added by Craig **/ 
+.navbar-nav > li.active {
+   color: #FFCC33 !important;
+    font-weight: 900;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 200;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
