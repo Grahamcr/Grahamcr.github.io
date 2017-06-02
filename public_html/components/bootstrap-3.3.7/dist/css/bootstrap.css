@@ -4344,6 +4344,26 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: none;
   }
 }
+.navbar-collapse .nav.pull-left,
+.navbar-collapse .nav.pull-right {
+     /**Added by Craig**/
+    @media screen and (max-width:992px) {
+            float: right !important;
+    }
+    @media screen and (max-width:768px) {
+            float: none!important
+    }
+}
+.navbar-collapse .nav > li {
+    @media screen and (max-width:992px) {
+        float: left !important;
+        border-top: none;
+    }
+    @media screen and (max-width:768px) {
+        float: none !important;
+        border-top: 1px solid #d4d4d4;
+    }
+}
 .navbar-nav {
   margin: 7.5px -15px;
     
