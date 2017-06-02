@@ -4632,6 +4632,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
 }
+
+.navbar-default .navbar-collapse {
+    /**added by craig**/
+    @media screen and (max-width:768px) {
+                        z-index: 999;
+                        position: absolute;
+                        width: 100%;
+                        background-color: #FFF;
+                    }
+}
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
