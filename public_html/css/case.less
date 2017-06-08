@@ -91,6 +91,9 @@
         &.blue {
             background-color: #1A1E23;
         }
+        &.red {
+            background-color: #441717;
+        }
     }
     .below-fold {
         position: absolute;
@@ -129,9 +132,14 @@
                     .section-header();
                     font-size: 40px;
                     padding-left: 0px;
+                    text-transform: uppercase;
                     
                     &.left-align {
                         text-align: left;
+                    }
+                    
+                    span {
+                        color:@primary-red;
                     }
                 }
 
@@ -552,6 +560,9 @@
                 background-color: #003300;
             }
             &.blue {
+                background-color: #1A1E23;
+            }
+            &.yellow {
                 background-color: #1A1E23;
             }
         }
