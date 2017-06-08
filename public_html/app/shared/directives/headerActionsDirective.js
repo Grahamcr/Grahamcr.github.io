@@ -71,7 +71,7 @@
      /***************************************************************************************
           * Redirect the user to the contact page
           ****************************************************************************************/
-         .directive("redirectCT", ['$location', function ($location) {
+         .directive("redirectCt", ['$location', function ($location) {
              return function (scope, element, attrs) {
                  element.bind("click", function () {
                      window.open("#/ct", "_self");
