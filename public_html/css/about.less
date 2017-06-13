@@ -9,14 +9,7 @@
             height: 75%;
             left: 0px;
             right: 0px;
-            
-            /**.banner-col {
-                height: 100%;
-                background-image: url("../img/me-wide_reversed.png");
-                background-size: 100% auto;
-                background-repeat: no-repeat;
-            }**/
-            
+         
             .text-col {
                 background-color: #1A1E23;
                 color:#FFF;
@@ -141,8 +134,164 @@
             @media screen and (max-width:605px) {
                  height: 75%;
             }
-        }
+        } /**End of the Banner**/
         
+        
+        .below-fold {
+            position: absolute;
+            top:75%;
+            width: 100%;
+             
+            
+            .text-section {
+                padding:0px;
+                padding-top: 80px;
+
+                &.blue-section {
+                    background-color: #1A1E23;
+                    color: #FFF;
+                    clear: both;
+                    height: 400px;
+                }
+
+                .text-section-inner {
+                    text-align: center;
+                    padding: 0px;
+
+                    .text-header {
+                        .section-header();
+                        font-size: 40px;
+                        padding-left: 0px;
+                        text-transform: uppercase;
+
+                        &.left-align {
+                            text-align: left;
+                        }
+
+                        span {
+                            color:@primary-red;
+                        }
+                    }
+
+                    .text {
+                        font-size: 22px;
+                        .standard-text();
+                        line-height: 36px;
+                        padding-bottom: 20px;
+
+                        &.last {
+                            padding-bottom: 80px;
+                        }
+                    }
+
+                    .section-title {
+                        text-transform: uppercase;
+                        font-weight: 900;
+                        .section-header();
+                        font-size: 18px;
+                        margin-top: 50px;
+
+                        &.left-align {
+                            text-align: left !important;
+                            padding-left: 0px;
+                        }
+                    }
+                    .sub-header {
+                        font-size: 28px;
+                        .standard-text();
+                        font-weight: 900;
+                        margin-top: 55px;
+                        margin-bottom: 20px;
+                        text-transform: uppercase;
+                    }
+
+                    .standout-title {
+                        .section-header();
+                        font-weight: 900;
+                        font-size: 24px;
+                        text-transform: uppercase;
+                        margin-top: 85px;
+                        margin-bottom: 10px;
+                    }
+
+                     #download {
+                        padding: 20px 40px;
+                        color:#1A1E23;
+                        background-color: #FFF;;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-size: 20px;
+                        font-weight: 400;
+                        text-decoration: none;
+                         position: relative;
+                         top: 50px;
+                         .section-header();
+                         
+                         @media screen and (max-width:980px) {
+                            padding: 16px 34px;
+                            font-size: 18px;
+                        }
+                        @media screen and (max-width:450px) {
+                            padding: 16px 34px;
+                            font-size: 18px;
+                        }
+                    }
+                    #download:hover {
+                        background-color: @primary-yellow;
+                        color: #000;
+                    }
+                    
+                    &.left-align {
+                        text-align: left;
+                    }
+
+                    @media screen and (max-width:992px) {
+                        padding-right: 8% !important;
+                    }
+
+                    @media screen and (max-width:600px) {
+                        .text-header {
+                            font-size: 32px;
+                        }
+
+                        .text {
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+
+                        .sub-header {
+                            font-size: 22px;
+
+                        }
+                        .standout-title {
+                            font-size: 20px;
+                        }
+                        .standout {
+                            font-size: 20px;
+
+                        }
+                    }
+                    @media screen and (max-width:300px) {
+                        padding-right: 0% !important;
+                    }
+                }
+
+                &.caption {
+                    padding-bottom: 80px;
+                    padding-top: 0px;
+                }
+
+
+            } //Text Section
+            
+            
+            @media screen and (max-width:992px) {
+                top: 50%;
+            }
+            @media screen and (max-width:605px) {
+                 top: 75%;
+            }
+        }
         
     }
 }
