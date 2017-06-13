@@ -19,6 +19,8 @@
       $scope.contact = false;
       $scope.about = false;
 
+      ga('set', 'page', '/homenew.html');
+      ga('send', 'pageview');
 
       
       

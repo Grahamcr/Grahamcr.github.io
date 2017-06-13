@@ -20,6 +20,8 @@
       $scope.about = false;
       $scope.case = true;
       
+      ga('set', 'page', '/av.html');
+      ga('send', 'pageview');
     
     /***************************************************************************************
     * On Page Load Function
