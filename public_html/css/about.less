@@ -1,5 +1,154 @@
 @import "global.less";
 
+#about-page-new {
+    
+    .container-fluid {
+        
+        .banner-row {
+            position: absolute;
+            height: 75%;
+            left: 0px;
+            right: 0px;
+            
+            /**.banner-col {
+                height: 100%;
+                background-image: url("../img/me-wide_reversed.png");
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+            }**/
+            
+            .text-col {
+                background-color: #1A1E23;
+                color:#FFF;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                .inner {
+                    
+                    .name {
+                        .section-header();
+                        font-size: 50px;
+                        font-weight: 900;
+                        padding: 0px !important;
+                        margin-bottom: 0px;
+                        
+                        @media screen and (max-width:768px) {
+                            font-size: 25px;
+                        }
+                    }
+
+                    .tag {
+                        .standard-text();
+                        font-size: 18px;
+                        line-height: 28px;
+                        text-align: center;
+                        
+                        span {
+                            font-weight: 900;
+                            font-size: 20px;
+                        }
+                        
+                        @media screen and (max-width:768px) {
+                            font-size: 14px;
+                            
+                            span {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+
+                    .social-block {
+                        text-align: center;
+                        margin-top: 100px;
+         
+                        
+                        .social-header {
+                            font-size: 14px;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                            text-align: center;
+                            display: inline-block;
+                            width: 100%;
+                            clear: both;
+                        }
+                        
+                        .links {
+                            width:100%;
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            
+                            .social-link {
+                                float:left;
+
+                                width: 20%;
+                                cursor: pointer;
+                                text-align: center;
+                                display: inline-block;
+
+                                a {
+
+                                    span {
+                                        color: #FFF;
+                                        font-size: 30px;
+                                    }
+                                }
+                            }
+                        }
+                        @media screen and (max-width:768px) {
+                            margin-top: 35px;
+                            position: relative;
+                            top: 40px;
+                            .social-header {
+                                font-size: 14px;
+                            }
+                            .links {
+                                .social-link {
+                                    a {
+                                        span {
+                                            font-size:24px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                 @media screen and (max-width:605px) {
+                     width: 100%;
+                     clear: both;
+                }
+            }
+            
+            .img-col {
+                height: 100%;
+                background-image: url("../img/me-reversed.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+                @media screen and (max-width:605px) {
+                     width: 100%;
+                     clear: both;
+                }  
+            }
+            
+            @media screen and (max-width:992px) {
+                height: 50%;
+            }
+            @media screen and (max-width:605px) {
+                 height: 75%;
+            }
+        }
+        
+        
+    }
+}
+
+
+/*
 #about-page {
     @media screen and (max-width:768px) {
         margin-top: 30px;
@@ -564,6 +713,6 @@
     
     
     
-}
+}*/
 
 
