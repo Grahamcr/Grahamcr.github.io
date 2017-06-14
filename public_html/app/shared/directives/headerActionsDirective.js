@@ -78,6 +78,28 @@
                  });
              };
         }])
+     
+     /***************************************************************************************
+          * Redirect the user to the contact page
+          ****************************************************************************************/
+         .directive("redirectIs", ['$location', function ($location) {
+             return function (scope, element, attrs) {
+                 element.bind("click", function () {
+                     window.open("#/is", "_self");
+                 });
+             };
+        }])
+     
+     /***************************************************************************************
+          * Redirect the user to the contact page
+          ****************************************************************************************/
+         .directive("redirectPa", ['$location', function ($location) {
+             return function (scope, element, attrs) {
+                 element.bind("click", function () {
+                     window.open("#/pa", "_self");
+                 });
+             };
+        }])
          /***************************************************************************************
           * Scroll down when the user clicks the learn more link or down cheveron
           ****************************************************************************************/
