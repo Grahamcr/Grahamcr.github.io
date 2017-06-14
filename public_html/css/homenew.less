@@ -151,14 +151,26 @@
         .case-title-col {
             display: inline-block;
             text-align: center;
-            p {
+            .header {
                 .section-header();
                 font-size: 40px;
                 text-transform: uppercase;
                 
                 @media screen and (max-width:350px) {
                     font-size: 30px;
+                }
+            }
+            .sub {
+                .standard-text();
+                font-size: 24px;
+                padding-left: 50px;
+                padding-right: 50px;
+                
+                @media screen and (max-width:350px) {
+                    font-size: 18px;
                     margin-bottom: 0px;
+                    padding-left: 20px;
+                    padding-right: 20px;
                 }
             }
         }
@@ -185,6 +197,7 @@
                     font-size: 22px;
                     padding-left: 40px;
                     padding-right: 40px;
+                    min-height: 85px;
                 }
                 a {
                     .section-header();
@@ -228,7 +241,17 @@
                         font-size: 18px;
                     }
                 }
+                
+                &.comming-soon {
+                    cursor: auto !important;
+                }
             }
+        }
+        
+        &.second {
+            position: relative;
+            top: 100px;
+            margin-bottom: 300px;
         }
     }
     
