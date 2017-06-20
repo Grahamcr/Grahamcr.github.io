@@ -11,7 +11,8 @@ angular.module('graham', [
     'graham.homenew',
     'graham.ct',
     'graham.is',
-    'graham.pa'
+    'graham.pa',
+    'graham.now'
     
 ]).config(['$httpProvider', function($httpProvider) {
   $httpProvider.defaults.withCredentials = true;

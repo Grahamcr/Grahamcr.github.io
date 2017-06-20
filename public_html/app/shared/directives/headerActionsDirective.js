@@ -100,6 +100,17 @@
                  });
              };
         }])
+     
+     /***************************************************************************************
+          * Redirect the user to the contact page
+          ****************************************************************************************/
+         .directive("redirectNow", ['$location', function ($location) {
+             return function (scope, element, attrs) {
+                 element.bind("click", function () {
+                     window.open("#/now", "_self");
+                 });
+             };
+        }])
          /***************************************************************************************
           * Scroll down when the user clicks the learn more link or down cheveron
           ****************************************************************************************/
