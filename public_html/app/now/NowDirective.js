@@ -4,10 +4,6 @@
 
     angular.module('graham.now')
     
-    
-    
-
-    
         ;
 }());
 
