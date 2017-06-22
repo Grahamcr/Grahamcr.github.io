@@ -12,7 +12,7 @@ angular.module('graham', [
     'graham.ct',
     'graham.is',
     'graham.pa',
-    'graham.now'
+    'graham.ft'
     
 ]).config(['$httpProvider', function($httpProvider) {
   $httpProvider.defaults.withCredentials = true;

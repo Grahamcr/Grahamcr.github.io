@@ -102,12 +102,12 @@
         }])
      
      /***************************************************************************************
-          * Redirect the user to the contact page
+          * Redirect the user to the ft page
           ****************************************************************************************/
-         .directive("redirectNow", ['$location', function ($location) {
+         .directive("redirectFt", ['$location', function ($location) {
              return function (scope, element, attrs) {
                  element.bind("click", function () {
-                     window.open("#/now", "_self");
+                     window.open("#/ft", "_self");
                  });
              };
         }])
