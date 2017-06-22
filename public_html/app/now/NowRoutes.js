@@ -14,7 +14,7 @@
   {
     $routeProvider
       .when('/now', {
-        controller: 'NOWController',
+        controller: 'NOController',
         templateUrl: 'app/now/now.html'
       });
   }

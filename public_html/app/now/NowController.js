@@ -4,12 +4,12 @@
   'use strict';
 
   angular.module('graham.now')
-    .controller('NOWController', NOW);
+    .controller('NOController', NO);
 
   /*******************************************************************************
   * 
   ********************************************************************************/
-  function NOW($scope, $location, $window){
+  function NO($scope, $location, $window){
       
       
       /*******************************************************************************
